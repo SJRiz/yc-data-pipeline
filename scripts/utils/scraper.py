@@ -1,6 +1,4 @@
-import requests
-import html
-import json
+import requests, html, json
 import time
 import logging
 from typing import Iterator, Any
@@ -142,7 +140,7 @@ def fetch_yc_companies() -> Iterator[Any]:
                 name = hit.get("name", "")
                 website = hit.get("website", "")
 
-                if name not in existing_companies:
+                if name not in {}:
                     stage = hit.get("stage", "")
                     desc = hit.get("one_liner", "")
                     slug = hit.get("slug", "")
