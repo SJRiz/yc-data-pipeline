@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-DATABASE_URL=""
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 RETRY_DELAY = 2.5
 COMPANIES_PER_EXTRACT = 100
