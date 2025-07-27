@@ -25,7 +25,7 @@ def get_html(link: str, attempts: int = 2) -> str:
         else:
             return ""
 
-# Appends the CEO's name, linkedin, and company linkedin to the sheet
+# Returns the CEO's name, linkedin, and company linkedin
 def extract_founder_company_info(yc_company_link: str) -> tuple[str, str, str]:
     html_structure = get_html(yc_company_link)
     soup = BeautifulSoup(html_structure, "html.parser")
@@ -159,6 +159,7 @@ def fetch_yc_companies() -> Iterator[Any]:
 
                     yield {
                         "name": name,
+                        "slug": slug,
                         "ceo_name": ceo_name,
                         "ceo_linkedin": ceo_linkedin,
                         "company_linkedin": company_linkedin,
