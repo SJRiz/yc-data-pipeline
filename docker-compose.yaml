@@ -1,0 +1,87 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: yc-postgres
+    env_file: .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  initdb:
+    image: postgres:15
+    depends_on:
+      - db
+    env_file: .env
+    volumes:
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    entrypoint:
+      [
+        "sh", "-c",
+        "until pg_isready -h db -p 5432; do sleep 1; done && \
+         PGPASSWORD=$POSTGRES_PASSWORD psql -h db -U $POSTGRES_USER -d $POSTGRES_DB \
+           -f /docker-entrypoint-initdb.d/schema.sql"
+      ]
+    restart: "no"
+
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    container_name: yc-fastapi
+    env_file: .env
+    depends_on:
+      - db
+      - initdb
+    ports:
+      - "8000:8000"
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: yc-streamlit
+    env_file: .env
+    depends_on:
+      - db
+      - initdb
+    ports:
+      - "8501:8501"
+
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: yc-airflow
+    env_file: .env
+    depends_on:
+      - db
+      - initdb
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./etl:/opt/airflow/etl
+      - ./config:/opt/airflow/config
+      - airflow_logs:/opt/airflow/logs
+      - airflow_plugins:/opt/airflow/plugins
+    entrypoint: >
+      bash -c "
+        airflow db migrate &&
+        airflow user create \
+          --username admin \
+          --password admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com || true &&
+        exec airflow scheduler &
+        exec airflow api-server
+      "
+
+volumes:
+  postgres_data:
+  airflow_logs:
+  airflow_plugins:

@@ -166,7 +166,7 @@ def fetch_yc_companies() -> Iterator[Any]:
                         "eng": eng,
                         "remote": remote,
                         "job_website": job_website,
-                        "desc": desc,
+                        "description": desc,
                         "stage": stage,
                         "tags": tags,
                         "industries": industries,

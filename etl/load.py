@@ -1,5 +1,5 @@
 import pandas as pd
-from db.sql import engine
+from db.db import engine
 
 def load_to_postgres():
     df = pd.read_csv("data/processed/yc_clean.csv")

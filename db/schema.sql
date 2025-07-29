@@ -8,13 +8,13 @@ CREATE TABLE IF NOT EXISTS startups (
     eng BOOLEAN,
     remote BOOLEAN,
     job_website TEXT,
-    desc TEXT,
+    description TEXT,
     stage TEXT,
     tags TEXT[],
     industries TEXT[],
     all_locations TEXT,
     team_size INT,
     batch TEXT,
-    funding BIGINT
+    funding BIGINT,
     last_scraped_at TIMESTAMP DEFAULT NOW()
 )
