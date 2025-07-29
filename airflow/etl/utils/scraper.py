@@ -156,7 +156,7 @@ def fetch_yc_companies() -> Iterator[Any]:
 
                     # Job info
                     eng, remote, job_website = search_jobs(link + "/jobs", website) if link else (None, None, None)
-
+                    print("Processed", name)
                     yield {
                         "name": name,
                         "slug": slug,

@@ -5,7 +5,7 @@ load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 RETRY_DELAY = 2.5
-COMPANIES_PER_EXTRACT = 100
+COMPANIES_PER_EXTRACT = 3
 
 X_ALGOLIA_API_KEY = os.getenv("x_algolia_api_key")
 USER_AGENT = (

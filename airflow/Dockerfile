@@ -8,4 +8,4 @@ COPY ../libs /opt/airflow/libs
 
 ENV PYTHONPATH="/opt/airflow:${PYTHONPATH}"
 
-RUN pip install --no-cache-dir bs4 pandas sqlalchemy dotenv 'apache-airflow[google]'
+RUN pip install --no-cache-dir bs4 pandas "SQLAlchemy>=1.4,<1.5" dotenv psycopg2-binary 'apache-airflow[google]'
