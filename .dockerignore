@@ -28,7 +28,6 @@ tests/
 data/
 docs/
 *.md
-*.txt
 
 # Local config/secrets
 .env
