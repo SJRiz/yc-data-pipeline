@@ -1,6 +1,6 @@
-from utils.scraper import fetch_yc_companies
+from .utils.scraper import fetch_yc_companies
 from itertools import islice
-from config.config import COMPANIES_PER_EXTRACT
+from libs.app_config.config import COMPANIES_PER_EXTRACT
 import os, json
 
 def extract_yc_data():

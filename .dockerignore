@@ -34,3 +34,6 @@ docs/
 *.env
 secrets.json
 credentials.json
+
+
+airflow/logs/

@@ -4,7 +4,7 @@ import logging
 from typing import Iterator, Any
 from bs4 import BeautifulSoup
 
-from config.config import RETRY_DELAY, USER_AGENT, X_ALGOLIA_API_KEY
+from libs.app_config.config import RETRY_DELAY, USER_AGENT, X_ALGOLIA_API_KEY
 
 # Gets the HTML structure of a website. Default 2 attempts
 def get_html(link: str, attempts: int = 2) -> str:

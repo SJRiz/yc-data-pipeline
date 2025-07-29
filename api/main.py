@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends, Query
 from sqlalchemy.orm import Session
-from db.db import SessionLocal
+from libs.db.db import SessionLocal
 
 # Create the fast api app
 app = FastAPI()
