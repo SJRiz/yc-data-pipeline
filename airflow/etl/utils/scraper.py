@@ -141,6 +141,8 @@ def fetch_yc_companies() -> Iterator[Any]:
             with engine.connect() as conn:
                 res = conn.execute("SELECT name FROM startups")
                 prev_companies = {row[0] for row in res if row[0]}
+            
+            print(prev_companies)
 
             try:
                 name = hit.get("name", "")
