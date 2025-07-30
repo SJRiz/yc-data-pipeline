@@ -9,5 +9,8 @@ def transform_yc_data():
     os.makedirs("data/processed", exist_ok=True)  # Ensure directory exists
     df.to_csv("data/processed/yc_clean.csv", index=False)
 
+    # Read back and print the CSV contents
+    print(pd.read_csv("data/processed/yc_clean.csv"))
+
 if __name__ == "__main__":
     transform_yc_data()

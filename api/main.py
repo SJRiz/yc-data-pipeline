@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, Query
+from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from libs.db.db import SessionLocal
 
@@ -16,5 +16,14 @@ def get_db():
 # Api route to get all startups
 @app.get("/startups/")
 def read_startups(tag: str = None, limit: int = 20, db: Session = Depends(get_db)):
-    query = db.execute("SELECT * FROM startups WHERE ($1 IS NULL OR tags @> ARRAY[$1]) LIMIT $2", (tag, limit))
+    if tag:
+        query = db.execute(
+            "SELECT * FROM startups WHERE tags @> :tag LIMIT :limit",
+            {"tag": [tag], "limit": limit},
+        )
+    else:
+        query = db.execute(
+            "SELECT * FROM startups LIMIT :limit",
+            {"limit": limit},
+        )
     return [dict(r) for r in query]

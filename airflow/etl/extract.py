@@ -11,5 +11,8 @@ def extract_yc_data():
     with open('data/raw/yc_raw.json', 'w') as f:
         json.dump(data, f, indent=4)
 
+    # Print the extracted data as formatted JSON string
+    print(json.dumps(data, indent=4))
+
 if __name__ == "__main__":
     extract_yc_data()
