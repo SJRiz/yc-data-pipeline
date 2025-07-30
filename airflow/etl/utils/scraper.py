@@ -4,6 +4,7 @@ import logging
 from typing import Iterator, Any
 from bs4 import BeautifulSoup
 
+from libs.db.db import engine
 from libs.app_config.config import RETRY_DELAY, USER_AGENT, X_ALGOLIA_API_KEY
 
 # Gets the HTML structure of a website. Default 2 attempts
@@ -135,12 +136,17 @@ def fetch_yc_companies() -> Iterator[Any]:
 
         for hit in hits:
             # Retrieve previous companies
+            prev_companies = {}
+
+            with engine.connect() as conn:
+                res = conn.execute("SELECT name FROM startups")
+                prev_companies = {row[0] for row in res if row[0]}
 
             try:
                 name = hit.get("name", "")
                 website = hit.get("website", "")
 
-                if name not in {}:
+                if name not in prev_companies:
                     stage = hit.get("stage", "")
                     desc = hit.get("one_liner", "")
                     slug = hit.get("slug", "")
