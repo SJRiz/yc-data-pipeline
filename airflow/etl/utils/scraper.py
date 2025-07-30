@@ -134,16 +134,14 @@ def fetch_yc_companies() -> Iterator[Any]:
         result = res.json()["results"][0]
         hits = result["hits"]
 
+        # Retrieve previous companies
+        prev_companies = {}
+
+        with engine.connect() as conn:
+            res = conn.execute("SELECT name FROM startups")
+            prev_companies = {row[0] for row in res if row[0]}
+
         for hit in hits:
-            # Retrieve previous companies
-            prev_companies = {}
-
-            with engine.connect() as conn:
-                res = conn.execute("SELECT name FROM startups")
-                prev_companies = {row[0] for row in res if row[0]}
-            
-            print(prev_companies)
-
             try:
                 name = hit.get("name", "")
                 website = hit.get("website", "")
@@ -155,7 +153,7 @@ def fetch_yc_companies() -> Iterator[Any]:
                     tags = hit.get("tags",[])
                     industries = hit.get("industries", "")
                     all_locations = hit.get("all_locations", "")
-                    team_size = hit.get("team_size", "")
+                    team_size = hit.get("team_size", 0)
 
                     link = f"https://www.ycombinator.com/companies/{slug}" if slug else ""
 

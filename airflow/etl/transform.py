@@ -9,7 +9,7 @@ def transform_yc_data():
 
     df = pd.DataFrame(raw)
 
-    # --- Safely lower-case list items ---
+    # Safely lower-case list items
     def clean_list(L):
         if isinstance(L, list):
             return [str(t).lower() for t in L if isinstance(t, str)]
@@ -18,26 +18,25 @@ def transform_yc_data():
     df['tags'] = df['tags'].apply(clean_list)
     df['industries'] = df['industries'].apply(clean_list)
 
-    # --- Safely parse team_size ---
+    # Safely parse team_size
     def clean_team_size(t):
         try:
             if pd.isnull(t):
                 return 0
-            return int(str(t).replace(",", "").strip())
+            if isinstance(t, str):
+                t = t.replace(",", "").strip()
+            return int(float(t))  # Handles both "1000" and 1000.0
         except:
             return 0
 
     df['team_size'] = df['team_size'].apply(clean_team_size)
 
-    # --- Drop duplicates on name ---
+    # Drop duplicates on name
     df.drop_duplicates(subset='name', inplace=True)
 
-    # --- Save to CSV ---
+    # Save to CSV
     os.makedirs("./data/processed", exist_ok=True)
     df.to_csv("./data/processed/yc_clean.csv", index=False, quotechar='"', quoting=csv.QUOTE_ALL)
-
-    # --- Print contents ---
-    print(df.head())
 
 if __name__ == "__main__":
     transform_yc_data()
