@@ -1,0 +1,248 @@
+[
+    {
+        "name": "BBy",
+        "slug": "bby",
+        "ceo_name": "Vansh Langer",
+        "ceo_linkedin": "https://www.linkedin.com/in/vansh-langer-md/",
+        "company_linkedin": "http://www.linkedin.com/bby",
+        "eng": false,
+        "remote": false,
+        "job_website": "http://www.bbymilk.com/careers",
+        "description": "BBy powders breast milk that's immunologically active & lasts 6 months",
+        "stage": "Growth",
+        "tags": [
+            "Health Tech",
+            "Medical Devices",
+            "Healthcare"
+        ],
+        "industries": [
+            "Healthcare",
+            "Medical Devices"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 70,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "WhiteLab Genomics",
+        "slug": "whitelab-genomics",
+        "ceo_name": "David Delbourgo",
+        "ceo_linkedin": "https://www.linkedin.com/in/daviddelbourgo/",
+        "company_linkedin": "https://www.linkedin.com/company/whitelabgenomics/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://whitelabgx.com/careers",
+        "description": "Unleashing the potential of DNA and RNA based therapies using AI",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Gene Therapy",
+            "Cell Therapy",
+            "Genomics"
+        ],
+        "industries": [
+            "Healthcare",
+            "Drug Discovery and Delivery"
+        ],
+        "all_locations": "Paris, \u00cele-de-France, France; Boston, MA, USA",
+        "team_size": 25,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Massdriver",
+        "slug": "massdriver",
+        "ceo_name": "Cory O'Daniel",
+        "ceo_linkedin": "https://linkedin.com/in/coryodaniel",
+        "company_linkedin": "https://linkedin.com/company/massdriver",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/massdriver/jobs (could not find a dedicated career website)",
+        "description": "Deploy secure, scalable cloud infrastructure in minutes not days",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "DevSecOps",
+            "Kubernetes"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 11,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Reality Defender",
+        "slug": "reality-defender",
+        "ceo_name": "Ben Colman",
+        "ceo_linkedin": "https://www.linkedin.com/in/benpcolman/",
+        "company_linkedin": "https://www.linkedin.com/company/reality-defender/",
+        "eng": false,
+        "remote": false,
+        "job_website": "http://www.realitydefender.com/careers",
+        "description": "Enterprise Deepfake Detection",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "Deepfake Detection",
+            "Security",
+            "Privacy",
+            "AI"
+        ],
+        "industries": [
+            "B2B",
+            "Security"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 54,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Remi",
+        "slug": "remi",
+        "ceo_name": "Doug Barnett",
+        "ceo_linkedin": "https://www.linkedin.com/in/doug-barnett-74653816/",
+        "company_linkedin": "https://www.linkedin.com/company/remilabs",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.remihq.com/careers",
+        "description": "Simplifying roofing for homeowners, roofers and enterprises.",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "Solar Power",
+            "Construction",
+            "Proptech",
+            "Climate"
+        ],
+        "industries": [
+            "Real Estate and Construction"
+        ],
+        "all_locations": "Lehi, UT, USA",
+        "team_size": 140,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Onboard.io",
+        "slug": "onboard-io",
+        "ceo_name": "Jeffrey D. Epstein",
+        "ceo_linkedin": "https://www.linkedin.com/in/epsteinjeffrey",
+        "company_linkedin": "https://www.linkedin.com/company/onboardio2/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://onboard.io/careers",
+        "description": "Manage & automate customer onboarding and implementation",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "B2B",
+            "Productivity",
+            "Customer Success",
+            "Collaboration"
+        ],
+        "industries": [
+            "B2B",
+            "Productivity"
+        ],
+        "all_locations": "Detroit, MI, USA; Remote",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Seis",
+        "slug": "seis",
+        "ceo_name": "Trevor McKendrick",
+        "ceo_linkedin": "https://www.linkedin.com/in/trevormckendrick",
+        "company_linkedin": "https://www.linkedin.com/company/seis-card/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.seis.com/careers",
+        "description": "Banking 100% in Spanish for the 44 million US Spanish speakers",
+        "stage": "Growth",
+        "tags": [
+            "Fintech",
+            "Consumer Finance",
+            "Neobank"
+        ],
+        "industries": [
+            "Fintech",
+            "Consumer Finance"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 17,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Eventual",
+        "slug": "eventual",
+        "ceo_name": "Sammy Sidhu",
+        "ceo_linkedin": "https://www.linkedin.com/in/sammy-sidhu/",
+        "company_linkedin": "https://www.linkedin.com/showcase/daftengine/",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.daft.ai//careers",
+        "description": "Building the AI data engine for any modality and scale",
+        "stage": "Early",
+        "tags": [
+            "Computer Vision"
+        ],
+        "industries": [
+            "B2B",
+            "Infrastructure"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 18,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Phoenix Hydrogen",
+        "slug": "phoenix-hydrogen",
+        "ceo_name": "Shawn Drost",
+        "ceo_linkedin": "https://www.linkedin.com/in/shawndrost/",
+        "company_linkedin": "https://www.linkedin.com/company/72630957/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://phoenixhydrogen.com//careers",
+        "description": "First commodity marketplace for hydrogen.",
+        "stage": "Early",
+        "tags": [
+            "Energy Storage",
+            "Hydrogen Energy",
+            "Marketplace",
+            "Climate",
+            "ClimateTech"
+        ],
+        "industries": [
+            "Industrials",
+            "Energy"
+        ],
+        "all_locations": "Berkeley, CA, USA; Remote",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Karate Labs",
+        "slug": "karate-labs",
+        "ceo_name": "Kapil Bakshi",
+        "ceo_linkedin": "https://www.linkedin.com/in/bakshikapil/",
+        "company_linkedin": "https://linkedin.com/company/karatelabs",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://karatelabs.io/careers",
+        "description": "Open-source API & UI test automation ",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "SaaS",
+            "API"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "Wilmington, DE, USA; Remote",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    }
+]

@@ -4,7 +4,7 @@ from sqlalchemy import MetaData, Table
 from libs.db.db import engine
 
 def load_to_postgres():
-    df = pd.read_csv("data/processed/yc_clean.csv")
+    df = pd.read_csv("./data/processed/yc_clean.csv")
     df['tags'] = df['tags'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else [])
     df['industries'] = df['industries'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else [])
     records = df.to_dict(orient="records")
