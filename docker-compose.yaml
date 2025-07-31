@@ -205,6 +205,7 @@ services:
         echo "Files in shared volumes:"
         echo
         ls -la /opt/airflow/{logs,dags,plugins,config}
+        /opt/airflow/scripts/create_connections.sh
 
     # yamllint enable rule:line-length
     environment:

@@ -1,1820 +1,542 @@
 [
     {
-        "name": "BBy",
-        "slug": "bby",
-        "ceo_name": "Vansh Langer",
-        "ceo_linkedin": "https://www.linkedin.com/in/vansh-langer-md/",
-        "company_linkedin": "http://www.linkedin.com/bby",
-        "eng": false,
-        "remote": false,
-        "job_website": "http://www.bbymilk.com/careers",
-        "description": "BBy powders breast milk that's immunologically active & lasts 6 months",
-        "stage": "Growth",
-        "tags": [
-            "Health Tech",
-            "Medical Devices",
-            "Healthcare"
-        ],
-        "industries": [
-            "Healthcare",
-            "Medical Devices"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 70,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "WhiteLab Genomics",
-        "slug": "whitelab-genomics",
-        "ceo_name": "David Delbourgo",
-        "ceo_linkedin": "https://www.linkedin.com/in/daviddelbourgo/",
-        "company_linkedin": "https://www.linkedin.com/company/whitelabgenomics/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://whitelabgx.com/careers",
-        "description": "Unleashing the potential of DNA and RNA based therapies using AI",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Gene Therapy",
-            "Cell Therapy",
-            "Genomics"
-        ],
-        "industries": [
-            "Healthcare",
-            "Drug Discovery and Delivery"
-        ],
-        "all_locations": "Paris, \u00cele-de-France, France; Boston, MA, USA",
-        "team_size": 25,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Massdriver",
-        "slug": "massdriver",
-        "ceo_name": "Cory O'Daniel",
-        "ceo_linkedin": "https://linkedin.com/in/coryodaniel",
-        "company_linkedin": "https://linkedin.com/company/massdriver",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/massdriver/jobs (could not find a dedicated career website)",
-        "description": "Deploy secure, scalable cloud infrastructure in minutes not days",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "DevSecOps",
-            "Kubernetes"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
-        "team_size": 11,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Reality Defender",
-        "slug": "reality-defender",
-        "ceo_name": "Ben Colman",
-        "ceo_linkedin": "https://www.linkedin.com/in/benpcolman/",
-        "company_linkedin": "https://www.linkedin.com/company/reality-defender/",
-        "eng": false,
-        "remote": false,
-        "job_website": "http://www.realitydefender.com/careers",
-        "description": "Enterprise Deepfake Detection",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "Deepfake Detection",
-            "Security",
-            "Privacy",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Security"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 54,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Remi",
-        "slug": "remi",
-        "ceo_name": "Doug Barnett",
-        "ceo_linkedin": "https://www.linkedin.com/in/doug-barnett-74653816/",
-        "company_linkedin": "https://www.linkedin.com/company/remilabs",
+        "name": "SkyLink",
+        "slug": "skylink",
+        "ceo_name": "Atyab Bhatti",
+        "ceo_linkedin": "https://www.linkedin.com/in/atyab/",
+        "company_linkedin": "https://www.linkedin.com/company/89812839/admin/",
         "eng": true,
         "remote": false,
-        "job_website": "https://www.remihq.com/careers",
-        "description": "Simplifying roofing for homeowners, roofers and enterprises.",
+        "job_website": "https://www.ycombinator.com/companies/skylink/jobs (could not find a dedicated career website)",
+        "description": "Travel Management Meets AI",
         "stage": "Early",
         "tags": [
-            "SaaS",
-            "Solar Power",
-            "Construction",
-            "Proptech",
-            "Climate"
-        ],
-        "industries": [
-            "Real Estate and Construction"
-        ],
-        "all_locations": "Lehi, UT, USA",
-        "team_size": 140,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Onboard.io",
-        "slug": "onboard-io",
-        "ceo_name": "Jeffrey D. Epstein",
-        "ceo_linkedin": "https://www.linkedin.com/in/epsteinjeffrey",
-        "company_linkedin": "https://www.linkedin.com/company/onboardio2/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://onboard.io/careers",
-        "description": "Manage & automate customer onboarding and implementation",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Productivity",
-            "Customer Success",
-            "Collaboration"
-        ],
-        "industries": [
-            "B2B",
-            "Productivity"
-        ],
-        "all_locations": "Detroit, MI, USA; Remote",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Seis",
-        "slug": "seis",
-        "ceo_name": "Trevor McKendrick",
-        "ceo_linkedin": "https://www.linkedin.com/in/trevormckendrick",
-        "company_linkedin": "https://www.linkedin.com/company/seis-card/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.seis.com/careers",
-        "description": "Banking 100% in Spanish for the 44 million US Spanish speakers",
-        "stage": "Growth",
-        "tags": [
-            "Fintech",
-            "Consumer Finance",
-            "Neobank"
-        ],
-        "industries": [
-            "Fintech",
-            "Consumer Finance"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 17,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Eventual",
-        "slug": "eventual",
-        "ceo_name": "Sammy Sidhu",
-        "ceo_linkedin": "https://www.linkedin.com/in/sammy-sidhu/",
-        "company_linkedin": "https://www.linkedin.com/showcase/daftengine/",
-        "eng": true,
-        "remote": false,
-        "job_website": "https://www.daft.ai//careers",
-        "description": "Building the AI data engine for any modality and scale",
-        "stage": "Early",
-        "tags": [
-            "Computer Vision"
-        ],
-        "industries": [
-            "B2B",
-            "Infrastructure"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 18,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Phoenix Hydrogen",
-        "slug": "phoenix-hydrogen",
-        "ceo_name": "Shawn Drost",
-        "ceo_linkedin": "https://www.linkedin.com/in/shawndrost/",
-        "company_linkedin": "https://www.linkedin.com/company/72630957/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://phoenixhydrogen.com//careers",
-        "description": "First commodity marketplace for hydrogen.",
-        "stage": "Early",
-        "tags": [
-            "Energy Storage",
-            "Hydrogen Energy",
-            "Marketplace",
-            "Climate",
-            "ClimateTech"
-        ],
-        "industries": [
-            "Industrials",
-            "Energy"
-        ],
-        "all_locations": "Berkeley, CA, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Karate Labs",
-        "slug": "karate-labs",
-        "ceo_name": "Kapil Bakshi",
-        "ceo_linkedin": "https://www.linkedin.com/in/bakshikapil/",
-        "company_linkedin": "https://linkedin.com/company/karatelabs",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://karatelabs.io/careers",
-        "description": "Open-source API & UI test automation ",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "SaaS",
-            "API"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "Wilmington, DE, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cofactr",
-        "slug": "cofactr",
-        "ceo_name": "Matthew Haber",
-        "ceo_linkedin": "https://www.linkedin.com/in/matthew-haber-374903184/",
-        "company_linkedin": "https://www.linkedin.com/company/cofactr",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/cofactr/jobs (could not find a dedicated career website)",
-        "description": "Cloud pre-factory logistics and procurement for electronics",
-        "stage": "Early",
-        "tags": [
-            "Hardware",
-            "B2B",
-            "Logistics",
-            "Supply Chain"
-        ],
-        "industries": [
-            "B2B",
-            "Supply Chain and Logistics"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 15,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "EasyCode",
-        "slug": "easycode",
-        "ceo_name": "James Jiang",
-        "ceo_linkedin": "https://www.linkedin.com/in/jamesdreamcrafters/",
-        "company_linkedin": "https://www.linkedin.com/company/easycodeai/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/easycode/jobs (could not find a dedicated career website)",
-        "description": "ChatGPT that understands your codebase.",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "Generative AI",
-            "Productivity"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "Toronto, ON, Canada; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Revoy",
-        "slug": "revoy",
-        "ceo_name": "Ian Rust",
-        "ceo_linkedin": "https://www.linkedin.com/in/ian-rust-85a41b43/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/revoy/jobs (could not find a dedicated career website)",
-        "description": "Make diesel semi trucks hybrid-electric",
-        "stage": "Early",
-        "tags": [
-            "Logistics",
-            "Climate",
-            "Electric Vehicles"
-        ],
-        "industries": [
-            "Industrials",
-            "Automotive"
-        ],
-        "all_locations": "San Mateo, CA, USA",
-        "team_size": 4,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "KorrAI",
-        "slug": "korrai",
-        "ceo_name": "Rahul Anand",
-        "ceo_linkedin": "https://www.linkedin.com/in/rahulanandnitk/",
-        "company_linkedin": "https://www.linkedin.com/company/korrai/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.korrai.com/careers",
-        "description": "KorrAI detects ground stability threats to critical infrastructure ",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Climate",
-            "Insurance"
-        ],
-        "industries": [
-            "Fintech",
-            "Insurance"
-        ],
-        "all_locations": "Toronto, ON, Canada",
-        "team_size": 14,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "GovDash",
-        "slug": "govdash",
-        "ceo_name": "Sean Doherty",
-        "ceo_linkedin": "https://www.linkedin.com/in/sean-m-doherty/",
-        "company_linkedin": "https://www.linkedin.com/company/govdash",
-        "eng": true,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/govdash/jobs (could not find a dedicated career website)",
-        "description": "AI platform for winning government contracts.",
-        "stage": "Growth",
-        "tags": [
-            "Generative AI",
-            "GovTech",
-            "AI"
-        ],
-        "industries": [
-            "Government"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 28,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Origami Therapeutics, Inc.",
-        "slug": "origami-therapeutics-inc",
-        "ceo_name": "Beth Hoffman",
-        "ceo_linkedin": "http://www.linkedin.com/in/bethhoffman",
-        "company_linkedin": "https://www.linkedin.com/company/origami-therapeutics/?viewAsMember=true",
-        "eng": false,
-        "remote": false,
-        "job_website": "http://origamitherapeutics.com/careers",
-        "description": "Oral drugs to halt neurodegeneration",
-        "stage": "Early",
-        "tags": [
-            "Biotech",
-            "Therapeutics",
-            "Drug discovery"
-        ],
-        "industries": [
-            "Healthcare",
-            "Therapeutics"
-        ],
-        "all_locations": "San Diego, CA, USA",
-        "team_size": 4,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cinapse",
-        "slug": "cinapse",
-        "ceo_name": "Herman Phillips",
-        "ceo_linkedin": "https://www.linkedin.com/in/hgphillipsiv/",
-        "company_linkedin": "https://www.linkedin.com/company/cinapse-io",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/cinapse/jobs (could not find a dedicated career website)",
-        "description": "The Operating System of Hollywood",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Entertainment",
-            "Productivity",
-            "Enterprise"
-        ],
-        "industries": [
-            "B2B",
-            "Productivity"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "AirMyne",
-        "slug": "airmyne",
-        "ceo_name": "Mark Cyffka",
-        "ceo_linkedin": "https://www.linkedin.com/in/markcyffka/",
-        "company_linkedin": "https://www.linkedin.com/company/77735406",
-        "eng": false,
-        "remote": false,
-        "job_website": "http://www.airmyne.com/careers",
-        "description": "Building systems to remove carbon dioxide from air at industrial scale",
-        "stage": "Early",
-        "tags": [
-            "Carbon Capture and Removal",
-            "Hard Tech",
-            "Hardware",
-            "Climate"
-        ],
-        "industries": [
-            "Industrials",
-            "Climate"
-        ],
-        "all_locations": "Berkeley, CA, USA",
-        "team_size": 11,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "OffBeast",
-        "slug": "offbeast",
-        "ceo_name": "Insa Mohr",
-        "ceo_linkedin": "https://www.linkedin.com/in/insa-m-mohr-54078473/",
-        "company_linkedin": "https://www.linkedin.com/company/83347305",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/offbeast/jobs (could not find a dedicated career website)",
-        "description": "We make plant-based steaks with an authentic texture",
-        "stage": "Early",
-        "tags": [
-            "Clean Meat",
-            "Cultured Meat",
-            "Climate",
-            "Food Tech"
-        ],
-        "industries": [
-            "Consumer",
-            "Food and Beverage"
-        ],
-        "all_locations": "Baltimore, MD, USA",
-        "team_size": 7,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Impossible Metals",
-        "slug": "impossible-metals",
-        "ceo_name": "Oliver Gunasekara",
-        "ceo_linkedin": "https://www.linkedin.com/in/gunasekara/",
-        "company_linkedin": "https://www.linkedin.com/company/74093268/admin/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/impossible-metals/jobs (could not find a dedicated career website)",
-        "description": "Underwater robotic vehicles that collect  battery metals responsibly",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Robotics",
-            "Mining",
-            "ClimateTech"
-        ],
-        "industries": [
-            "Industrials",
-            "Climate"
-        ],
-        "all_locations": "Pasadena, CA, USA",
-        "team_size": 20,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Trusty",
-        "slug": "trusty",
-        "ceo_name": "Tim Hyer",
-        "ceo_linkedin": "https://www.linkedin.com/in/timhyer/",
-        "company_linkedin": "https://www.linkedin.com/company/trustyhomes",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/trusty/jobs (could not find a dedicated career website)",
-        "description": "Limitless Real Estate",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "Real Estate",
-            "Consumer",
-            "B2B",
-            "Proptech"
-        ],
-        "industries": [
-            "Real Estate and Construction",
-            "Housing and Real Estate"
-        ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Query Vary",
-        "slug": "query-vary",
-        "ceo_name": "Walter Pintor",
-        "ceo_linkedin": "linkedin.com/in/walter-pintor",
-        "company_linkedin": "https://www.linkedin.com/company/96061039",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/query-vary/jobs (could not find a dedicated career website)",
-        "description": "No-Code LLM Application / Workflow Builder",
-        "stage": "Early",
-        "tags": [
-            "AIOps",
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Olympian Motors",
-        "slug": "olympian-motors",
-        "ceo_name": "Jasmine Sungu",
-        "ceo_linkedin": "https://www.linkedin.com/in/jasmine-sungu-208681101/",
-        "company_linkedin": "https://www.linkedin.com/company/olympian-motors/",
-        "eng": true,
-        "remote": false,
-        "job_website": "https://olympianmotors.com//careers",
-        "description": "Manufacturing modular electric vehicles with style",
-        "stage": "Early",
-        "tags": [
-            "Consumer",
-            "Manufacturing",
-            "Climate",
-            "Transportation",
-            "Electric Vehicles"
-        ],
-        "industries": [
-            "Industrials",
-            "Automotive"
-        ],
-        "all_locations": "New York, NY, USA; Los Angeles, CA, USA",
-        "team_size": 10,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Netmaker",
-        "slug": "netmaker",
-        "ceo_name": "Alex Feiszli",
-        "ceo_linkedin": "https://www.linkedin.com/in/feiszli",
-        "company_linkedin": "https://www.linkedin.com/company/netmaker-inc/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/netmaker/jobs (could not find a dedicated career website)",
-        "description": "Automated WireGuard networks for distributed systems and Kubernetes",
-        "stage": "Early",
-        "tags": [
-            "DevSecOps",
-            "Next-gen Network Security",
-            "Open Source",
-            "Kubernetes"
-        ],
-        "industries": [
-            "B2B",
-            "Infrastructure"
-        ],
-        "all_locations": "Asheville, NC, USA",
-        "team_size": 7,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cashmere",
-        "slug": "cashmere",
-        "ceo_name": "Shashank Khanna",
-        "ceo_linkedin": "https://www.linkedin.com/in/skhanna3/",
-        "company_linkedin": "https://twitter.com/CashmereWallet",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://cashmere.finance//jobs",
-        "description": "Crypto wallet for web3 startups",
-        "stage": "Early",
-        "tags": [
-            "DeFi",
-            "Crypto / Web3",
-            "DAO"
-        ],
-        "industries": [
-            "Fintech",
-            "Asset Management"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 3,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Pigeon",
-        "slug": "pigeon-2",
-        "ceo_name": "Brian Bristol",
-        "ceo_linkedin": "https://www.linkedin.com/in/brianbristol~tech/",
-        "company_linkedin": "https://www.linkedin.com/company/usepigeon/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.usepigeon.io/careers",
-        "description": "Simplifying loans with your friends & family.",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "Consumer",
-            "LegalTech"
-        ],
-        "industries": [
-            "Fintech"
-        ],
-        "all_locations": "Miami, FL, USA",
-        "team_size": 5,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "The Ankler",
-        "slug": "the-ankler",
-        "ceo_name": "Janice Min",
-        "ceo_linkedin": "https://www.linkedin.com/in/janice-min-11172219/",
-        "company_linkedin": "https://www.linkedin.com/company/the-ankler",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/the-ankler/jobs (could not find a dedicated career website)",
-        "description": "Subscription entertainment news",
-        "stage": "Early",
-        "tags": [
-            "Entertainment"
-        ],
-        "industries": [
-            "Consumer",
-            "Content"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Reviving Mind",
-        "slug": "reviving-mind",
-        "ceo_name": "Rahul Sharma",
-        "ceo_linkedin": "https://www.linkedin.com/in/rahul-sharma-71a30b62/",
-        "company_linkedin": "https://www.linkedin.com/company/reviving-mind",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/reviving-mind/jobs (could not find a dedicated career website)",
-        "description": "Addressing Loneliness and Isolation for Seniors",
-        "stage": "Early",
-        "tags": [
-            "Consumer Health Services",
-            "Digital Health",
-            "Healthcare",
-            "Telemedicine"
-        ],
-        "industries": [
-            "Healthcare",
-            "Healthcare Services"
-        ],
-        "all_locations": "Boston, MA, USA; Remote",
-        "team_size": 3,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Anja Health",
-        "slug": "anja-health",
-        "ceo_name": "Kathryn Cross",
-        "ceo_linkedin": "https://www.linkedin.com/in/kathryn-cross/",
-        "company_linkedin": "https://linkedin.com/company/anjahealth",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/anja-health/jobs (could not find a dedicated career website)",
-        "description": "Cord Blood Banking Reimagined",
-        "stage": "Early",
-        "tags": [
-            "Consumer Health Services",
-            "Consumer",
-            "Healthcare"
-        ],
-        "industries": [
-            "Healthcare",
-            "Consumer Health and Wellness"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Plover Parametrics",
-        "slug": "plover-parametrics",
-        "ceo_name": "Max Clarke",
-        "ceo_linkedin": "https://www.linkedin.com/in/max-clarke-029821b/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/plover-parametrics/jobs (could not find a dedicated career website)",
-        "description": "Climate change insurance that pays out immediately.",
-        "stage": "Early",
-        "tags": [],
-        "industries": [
-            "Fintech",
-            "Insurance"
-        ],
-        "all_locations": "New York, NY, USA; San Francisco, CA, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Avocademy",
-        "slug": "avocademy",
-        "ceo_name": "Maca Baigorria",
-        "ceo_linkedin": "https://www.linkedin.com/in/maca-baigorria/",
-        "company_linkedin": "https://www.linkedin.com/company/avocademy",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/avocademy/jobs (could not find a dedicated career website)",
-        "description": "We teach UX/UI design and then help people get great jobs. ",
-        "stage": "Early",
-        "tags": [
-            "Education",
-            "Design"
-        ],
-        "industries": [
-            "Education"
-        ],
-        "all_locations": "Miami, FL, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Codec",
-        "slug": "codec",
-        "ceo_name": "Merwane Drai",
-        "ceo_linkedin": null,
-        "company_linkedin": "https://www.linkedin.com/company/codec-hq",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/codec/jobs (could not find a dedicated career website)",
-        "description": "Tools and APIs for video intelligence",
-        "stage": "Early",
-        "tags": [
-            "Video",
+            "Travel",
             "AI"
         ],
         "industries": [
             "B2B"
         ],
-        "all_locations": "Palo Alto, CA, USA",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "WANTD",
-        "slug": "wantd",
-        "ceo_name": "Ricky Nariani",
-        "ceo_linkedin": "https://www.linkedin.com/in/rickynariani/",
-        "company_linkedin": "https://www.linkedin.com/company/wantd",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/wantd/jobs (could not find a dedicated career website)",
-        "description": "A direct to consumer marketplace and influencer network for brands",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "E-commerce"
-        ],
-        "industries": [
-            "Consumer",
-            "Apparel and Cosmetics"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
-        "team_size": 4,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Humand",
-        "slug": "humand",
-        "ceo_name": "Nicolas Benenzon",
-        "ceo_linkedin": "https://www.linkedin.com/in/benenzon/",
-        "company_linkedin": "https://www.linkedin.com/company/humand-co",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/humand/jobs (could not find a dedicated career website)",
-        "description": "All-in-one app for internal communication and HR",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Generative AI",
-            "SaaS",
-            "B2B",
-            "Productivity"
-        ],
-        "industries": [
-            "B2B",
-            "Human Resources"
-        ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 270,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Blink",
-        "slug": "blink-new",
-        "ceo_name": "Kai Feng",
-        "ceo_linkedin": "https://www.linkedin.com/in/kaijiabofeng/",
-        "company_linkedin": "https://www.linkedin.com/company/blinkdotnew",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/blink-new/jobs (could not find a dedicated career website)",
-        "description": "Build fully functional apps with AI.",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Chatbot",
-            "No-code",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 1,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "RTHM",
-        "slug": "rthm",
-        "ceo_name": "Ryan Kellogg",
-        "ceo_linkedin": "https://www.linkedin.com/in/rkellogg/",
-        "company_linkedin": "https://www.linkedin.com/company/rthm",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/rthm/jobs (could not find a dedicated career website)",
-        "description": " Simplifying complex illness care at scale",
-        "stage": "Early",
-        "tags": [
-            "Consumer Health Services",
-            "Health Tech",
-            "Digital Health",
-            "Healthcare",
-            "Telemedicine"
-        ],
-        "industries": [
-            "Healthcare",
-            "Healthcare Services"
-        ],
-        "all_locations": "Redwood City, CA, USA",
-        "team_size": 14,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Rally UXR",
-        "slug": "rally-uxr",
-        "ceo_name": "Oren Friedman",
-        "ceo_linkedin": "https://www.linkedin.com/in/oren-friedman/",
-        "company_linkedin": "https://www.linkedin.com/company/rallyuxr/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.rallyuxr.com//careers",
-        "description": "User Research CRM",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Design Tools"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "New York, NY, USA; Remote",
-        "team_size": 21,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Verse",
-        "slug": "verse",
-        "ceo_name": "Bobby Pinckney",
-        "ceo_linkedin": "https://www.linkedin.com/in/bobby-pinckney-353210133/",
-        "company_linkedin": "https://www.linkedin.com/company/100462497/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://madeonverse.com//careers",
-        "description": "Social network based on who you are, not what you look like",
-        "stage": "Early",
-        "tags": [
-            "Consumer",
-            "Entertainment",
-            "Social",
-            "Music",
-            "AI"
-        ],
-        "industries": [
-            "Consumer"
-        ],
         "all_locations": "New York, NY, USA",
-        "team_size": 5,
+        "team_size": 22,
         "batch": "Winter 2022"
     },
     {
-        "name": "Arpari",
-        "slug": "arpari",
-        "ceo_name": "Alexandra Zwiener",
-        "ceo_linkedin": "https://www.linkedin.com/in/alexandra-zwiener/",
-        "company_linkedin": "https://www.linkedin.com/company/arpari",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/arpari/jobs (could not find a dedicated career website)",
-        "description": "Multibank treasury management",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "SaaS",
-            "Real Estate",
-            "Payments",
-            "Neobank"
-        ],
-        "industries": [
-            "Fintech"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Ploomber",
-        "slug": "ploomber",
-        "ceo_name": "Eduardo Blancas",
-        "ceo_linkedin": "https://www.linkedin.com/in/edublancas",
-        "company_linkedin": "https://www.linkedin.com/company/ploomber",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/ploomber/jobs (could not find a dedicated career website)",
-        "description": "Heroku for AI",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "Machine Learning",
-            "Analytics",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "New York, NY, USA; Remote",
-        "team_size": 7,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Float Health",
-        "slug": "float-health",
-        "ceo_name": "Ryan Johnson",
-        "ceo_linkedin": "http://linkedin.com/in/ryan-johnson-2a189221b",
-        "company_linkedin": "https://www.linkedin.com/company/float-health-inc/",
+        "name": "IOMETE",
+        "slug": "iomete",
+        "ceo_name": "Vusal Dadalov",
+        "ceo_linkedin": "https://www.linkedin.com/in/vusaldadalov/",
+        "company_linkedin": "https://www.linkedin.com/company/iomete/mycompany/",
         "eng": false,
-        "remote": true,
-        "job_website": "https://floathealth.com//careers",
-        "description": "Float is the full-stack platform for Specialty Pharma",
-        "stage": "Early",
-        "tags": [
-            "Health Tech"
-        ],
-        "industries": [
-            "Healthcare"
-        ],
-        "all_locations": "Carlsbad, CA, USA",
-        "team_size": 3,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Shaped",
-        "slug": "shaped",
-        "ceo_name": "Tullie Murrell",
-        "ceo_linkedin": "https://www.linkedin.com/in/tullie/",
-        "company_linkedin": "https://www.linkedin.com/company/shapedai",
-        "eng": true,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/shaped/jobs (could not find a dedicated career website)",
-        "description": "The fastest path to relevant recommendations and search",
+        "job_website": "https://www.ycombinator.com/companies/iomete/jobs (could not find a dedicated career website)",
+        "description": "Self-hosted data lakehouse platform",
         "stage": "Early",
         "tags": [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "API",
-            "Search",
-            "Recommendation System"
+            "Analytics"
         ],
         "industries": [
             "B2B",
             "Infrastructure"
         ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 12,
+        "all_locations": "Mountain View, CA, USA; Remote",
+        "team_size": 17,
         "batch": "Winter 2022"
     },
     {
-        "name": "ngrow.ai",
-        "slug": "ngrow-ai",
-        "ceo_name": "Alex Sergeev",
-        "ceo_linkedin": "https://www.linkedin.com/in/adsergeev/",
-        "company_linkedin": "https://www.linkedin.com/in/adsergeev/",
+        "name": "Magna",
+        "slug": "magna",
+        "ceo_name": "Bruno Faviero",
+        "ceo_linkedin": "https://www.linkedin.com/in/faviero",
+        "company_linkedin": null,
         "eng": false,
         "remote": false,
-        "job_website": "http://ngrow.ai/jobs",
-        "description": "Low-code SaaS for marketing in push notifications",
+        "job_website": "https://magna.so/careers",
+        "description": "Carta for Web3: token vesting and DeFi investment management. ",
         "stage": "Early",
         "tags": [
-            "SaaS"
+            "DeFi",
+            "DAO"
+        ],
+        "industries": [
+            "Fintech"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 18,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Sphere",
+        "slug": "sphere",
+        "ceo_name": "Nicholas Rudder",
+        "ceo_linkedin": "https://www.linkedin.com/in/nicholasrudder/",
+        "company_linkedin": "https://www.linkedin.com/school/getsphere/",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/sphere/jobs (could not find a dedicated career website)",
+        "description": "AI-powered sales tax, VAT and GST compliance",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Finance",
+            "B2B"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 7,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "T3 Chat",
+        "slug": "t3-chat",
+        "ceo_name": "Theo Browne",
+        "ceo_linkedin": "https://www.linkedin.com/in/t3gg/",
+        "company_linkedin": "https://www.linkedin.com/company/t3-tools",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://t3.chat/careers",
+        "description": "The best AI chat you've ever used",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "Consumer",
+            "AI"
+        ],
+        "industries": [
+            "Consumer",
+            "Content"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Gauss",
+        "slug": "gauss",
+        "ceo_name": "Alex Matsenov",
+        "ceo_linkedin": "https://www.linkedin.com/in/alexmatsenov/",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/gauss/jobs (could not find a dedicated career website)",
+        "description": "Lower interest rates on existing credit cards",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "Consumer"
+        ],
+        "industries": [
+            "Fintech",
+            "Consumer Finance"
+        ],
+        "all_locations": "New York, NY, USA; Remote",
+        "team_size": 16,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "RedBrick AI",
+        "slug": "redbrick-ai",
+        "ceo_name": "Derek Lukacs",
+        "ceo_linkedin": "https://www.linkedin.com/in/derek-lukacs/",
+        "company_linkedin": "https://www.linkedin.com/company/redbrick-ai",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/redbrick-ai/jobs (could not find a dedicated career website)",
+        "description": "Rapid medical data annotation",
+        "stage": "Early",
+        "tags": [
+            "AIOps",
+            "Machine Learning",
+            "Healthcare"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "Claymont, DE, USA; MH, India",
+        "team_size": 13,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Axis",
+        "slug": "axis",
+        "ceo_name": "Mishaal Al Gergawi",
+        "ceo_linkedin": "https://www.linkedin.com/in/mishaal-al-gergawi/",
+        "company_linkedin": "https://www.linkedin.com/company/axis-xyz/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/axis/jobs (could not find a dedicated career website)",
+        "description": "Knowledge base for corporate affairs teams",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "B2B",
+            "Subscriptions",
+            "Regtech"
+        ],
+        "industries": [
+            "B2B",
+            "Productivity"
+        ],
+        "all_locations": "New York, NY, USA; Remote",
+        "team_size": 15,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "HOKALI",
+        "slug": "hokali",
+        "ceo_name": "Ignacio Viau",
+        "ceo_linkedin": "https://www.linkedin.com/in/ignacio-javier-viau-4567b459/",
+        "company_linkedin": "https://www.linkedin.com/company/42697643/admin/",
+        "eng": false,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/hokali/jobs (could not find a dedicated career website)",
+        "description": "After School & Enrichment Activities Marketplace",
+        "stage": "Early",
+        "tags": [
+            "Marketplace",
+            "Edtech"
         ],
         "industries": [
             "B2B",
             "Marketing"
         ],
         "all_locations": "San Francisco, CA, USA",
-        "team_size": 11,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Sendo",
-        "slug": "sendo",
-        "ceo_name": "Nick Rubin",
-        "ceo_linkedin": "https://www.linkedin.com/in/nick-rubin-6729569a/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://sendo.dev/careers",
-        "description": "The best SMS/RCS API for startups",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "Messaging",
-            "API",
-            "SMS"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "New York, NY, USA; Remote",
-        "team_size": 1,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Unsaddl",
-        "slug": "unsaddl",
-        "ceo_name": "Steve Troy",
-        "ceo_linkedin": "https://www.linkedin.com/in/steve-t-79268b102/",
-        "company_linkedin": "https://www.linkedin.com/company/unsaddl",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/unsaddl/jobs (could not find a dedicated career website)",
-        "description": "education benefits and leave of absence management",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "Human Resources",
-            "B2B"
-        ],
-        "industries": [
-            "B2B",
-            "Human Resources"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 10,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Status",
-        "slug": "status",
-        "ceo_name": "Fai Nur",
-        "ceo_linkedin": "https://www.linkedin.com/in/fainur/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/status/jobs (could not find a dedicated career website)",
-        "description": "Sims but Social Media",
-        "stage": "Early",
-        "tags": [
-            "Consumer",
-            "Social",
-            "AI"
-        ],
-        "industries": [
-            "Consumer",
-            "Social"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "SOTERI SKIN",
-        "slug": "soteri-skin",
-        "ceo_name": "Rafal Pielak",
-        "ceo_linkedin": "https://www.linkedin.com/in/rafal-pielak-953704a/",
-        "company_linkedin": "https://www.linkedin.com/company/73029618/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/soteri-skin/jobs (could not find a dedicated career website)",
-        "description": "D2C Skincare for Eczema",
-        "stage": "Early",
-        "tags": [
-            "E-commerce",
-            "Skincare"
-        ],
-        "industries": [
-            "Consumer",
-            "Home and Personal"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Decent",
-        "slug": "decent",
-        "ceo_name": "Charlie Durbin",
-        "ceo_linkedin": "https://www.linkedin.com/in/charlie-durbin-b88544131/",
-        "company_linkedin": "https://www.linkedin.com/company/decentxyz",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/decent/jobs (could not find a dedicated career website)",
-        "description": "One-click transactions using any token across chains.",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "Crypto / Web3",
-            "B2B",
-            "NFT",
-            "Cryptocurrency"
-        ],
-        "industries": [
-            "B2B",
-            "Infrastructure"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 8,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Spade",
-        "slug": "spade",
-        "ceo_name": "Oban MacTavish",
-        "ceo_linkedin": "https://www.linkedin.com/in/oban/",
-        "company_linkedin": "https://www.linkedin.com/company/spadedata/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.spade.com/careers",
-        "description": "Enriched transaction data you can build on",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "Fintech",
-            "Machine Learning"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 13,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Fogbender",
-        "slug": "fogbender",
-        "ceo_name": "Andrei Soroker",
-        "ceo_linkedin": "https://www.linkedin.com/in/soroker",
-        "company_linkedin": "https://www.linkedin.com/company/fogbender",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://fogbender.com/careers",
-        "description": "Customer support tool purpose-built for companies that sell APIs",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Customer Support"
-        ],
-        "industries": [
-            "B2B"
-        ],
-        "all_locations": "Oakland, CA, USA; Remote",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "PropelAuth",
-        "slug": "propelauth",
-        "ceo_name": "Andrew Israel",
-        "ceo_linkedin": "https://www.linkedin.com/in/andrew-israel-457751b8/",
-        "company_linkedin": "https://www.linkedin.com/company/propelauth/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/propelauth/jobs (could not find a dedicated career website)",
-        "description": "Team-based authentication for B2B SaaS",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "SaaS",
-            "B2B",
-            "Identity"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "CA, USA; Remote",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Argument Computer Corporation",
-        "slug": "argument-computer-corporation",
-        "ceo_name": "John Burnham",
-        "ceo_linkedin": "https://www.linkedin.com/in/john-burnham-01190a32/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/argument-computer-corporation/jobs (could not find a dedicated career website)",
-        "description": "Accelerate verifiable computing",
-        "stage": "Early",
-        "tags": [
-            "Crypto / Web3",
-            "Security",
-            "Cryptography"
-        ],
-        "industries": [
-            "B2B"
-        ],
-        "all_locations": "Boston, MA, USA; Remote",
-        "team_size": 8,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Attain",
-        "slug": "attain",
-        "ceo_name": "Aamir Hudda",
-        "ceo_linkedin": "https://www.linkedin.com/in/aamirhudda/",
-        "company_linkedin": "https://www.linkedin.com/in/aamirhudda/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/attain/jobs (could not find a dedicated career website)",
-        "description": "One-Stop Shop for Convenience Store Inventory",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "SaaS",
-            "B2B",
-            "Supply Chain",
-            "Food Tech"
-        ],
-        "industries": [
-            "B2B"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 5,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Venue.ink",
-        "slug": "venue-ink",
-        "ceo_name": "Jason Goldlist",
-        "ceo_linkedin": "https://www.linkedin.com/in/goldlist/",
-        "company_linkedin": "https://www.linkedin.com/company/venue-ink/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://venue.ink/careers",
-        "description": "Software for tattoo artists and studios",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "SaaS",
-            "Creator Economy"
-        ],
-        "industries": [
-            "Fintech",
-            "Payments"
-        ],
-        "all_locations": "Toronto, ON, Canada",
-        "team_size": 9,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "UNISON",
-        "slug": "unison",
-        "ceo_name": "Maxime C Peroumal",
-        "ceo_linkedin": null,
-        "company_linkedin": "https://www.linkedin.com/company/unisoninc",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/unison/jobs (could not find a dedicated career website)",
-        "description": "Live between worlds, in UNISON, using the headset we're building!",
-        "stage": "Early",
-        "tags": [
-            "Hardware",
-            "Virtual Reality",
-            "Consumer",
-            "Gaming"
-        ],
-        "industries": [
-            "Consumer",
-            "Virtual and Augmented Reality"
-        ],
-        "all_locations": "Mountain View, CA, USA; San Francisco, CA, USA",
-        "team_size": 15,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "IoTFlows Inc",
-        "slug": "iotflows-inc",
-        "ceo_name": "Mahmoud Parto",
-        "ceo_linkedin": "https://www.linkedin.com/in/mahmoudp/",
-        "company_linkedin": "https://www.linkedin.com/company/iotflows",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/iotflows-inc/jobs (could not find a dedicated career website)",
-        "description": "AI-Powered Machine Performance Monitoring",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Deep Learning",
-            "Machine Learning",
-            "IoT",
-            "Manufacturing"
-        ],
-        "industries": [
-            "B2B",
-            "Operations"
-        ],
-        "all_locations": "Atlanta, GA, USA",
-        "team_size": 60,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cypher",
-        "slug": "cypher",
-        "ceo_name": "Kuberan Marimuthu",
-        "ceo_linkedin": "https://www.linkedin.com/in/kuberanmarimuthu/",
-        "company_linkedin": "https://www.linkedin.com/company/79070369",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/cypher/jobs (could not find a dedicated career website)",
-        "description": "Banking built with on-chain primitives for web3 founders and teams",
-        "stage": "Early",
-        "tags": [
-            "DeFi",
-            "Crypto / Web3",
-            "Payments"
-        ],
-        "industries": [
-            "B2B",
-            "Finance and Accounting"
-        ],
-        "all_locations": "Palo Alto, CA, USA",
-        "team_size": 10,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Joon Health",
-        "slug": "joon-health",
-        "ceo_name": "Isaac Eaves",
-        "ceo_linkedin": "https://www.linkedin.com/in/isaaceaves/",
-        "company_linkedin": "https://www.linkedin.com/company/69335553/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/joon-health/jobs (could not find a dedicated career website)",
-        "description": "Pediatric digital therapeutic for the +100M families in the US",
-        "stage": "Early",
-        "tags": [
-            "Mental Health Tech",
-            "Consumer Health Services",
-            "Consumer"
-        ],
-        "industries": [
-            "Healthcare",
-            "Consumer Health and Wellness"
-        ],
-        "all_locations": "San Francisco, CA, USA; Oakland, CA, USA",
-        "team_size": 10,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Brainboard",
-        "slug": "brainboard",
-        "ceo_name": "Chafik Belhaoues",
-        "ceo_linkedin": "https://www.linkedin.com/in/chafik-belhaoues-%E2%98%81-4145b320/",
-        "company_linkedin": "https://www.linkedin.com/company/brainboard-co",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/brainboard/jobs (could not find a dedicated career website)",
-        "description": "Visually design and manage cloud infrastructures.",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "DevOps",
-            "Cloud Computing",
-            "Infrastructure"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "New York, NY, USA; Paris, \u00cele-de-France, France; Remote",
         "team_size": 12,
         "batch": "Winter 2022"
     },
     {
-        "name": "Ponyrun",
-        "slug": "ponyrun",
-        "ceo_name": "LIUSHA HUANG",
-        "ceo_linkedin": "https://www.linkedin.com/in/liushh/",
-        "company_linkedin": "https://www.linkedin.com/company/ponyrun-ai/",
+        "name": "Super Send",
+        "slug": "super-send",
+        "ceo_name": "Kurtis Tryber",
+        "ceo_linkedin": "https://www.linkedin.com/in/kurtistryber/",
+        "company_linkedin": "https://linkedin.com/company/supersend-io/",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/ponyrun/jobs (could not find a dedicated career website)",
-        "description": "Automate prospect research at scale",
+        "job_website": "https://www.ycombinator.com/companies/super-send/jobs (could not find a dedicated career website)",
+        "description": "Super Send automates personalized outreach across email, LinkedIn,\u2026",
         "stage": "Early",
         "tags": [
-            "Analytics",
+            "B2B",
             "Sales",
-            "Operations",
-            "AI",
-            "AI Assistant"
+            "Sales Enablement",
+            "Marketing"
         ],
         "industries": [
             "B2B",
-            "Operations"
+            "Marketing"
         ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 3,
+        "all_locations": "Royal Oak, MI, USA; Remote",
+        "team_size": 8,
         "batch": "Winter 2022"
     },
     {
-        "name": "Andson Biotech",
-        "slug": "andson-biotech",
-        "ceo_name": "Mason Chilmonczyk",
-        "ceo_linkedin": "https://www.linkedin.com/in/mason-chil/",
-        "company_linkedin": "https://www.linkedin.com/company/andson-biotech/",
+        "name": "Reforged Labs",
+        "slug": "reforged-labs",
+        "ceo_name": "Robert Huynh",
+        "ceo_linkedin": "https://www.linkedin.com/in/huynhrobert/",
+        "company_linkedin": "https://www.linkedin.com/company/reforged-labs",
         "eng": true,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/andson-biotech/jobs (could not find a dedicated career website)",
-        "description": "Empowering Mass Spec for Biotech and Beyond",
-        "stage": "Early",
-        "tags": [
-            "Gene Therapy",
-            "Hard Tech",
-            "Biotech",
-            "Healthcare",
-            "Therapeutics"
-        ],
-        "industries": [
-            "Healthcare"
-        ],
-        "all_locations": "Atlanta, GA, USA",
-        "team_size": 4,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Torpedo Therapeutics",
-        "slug": "torpedo-therapeutics",
-        "ceo_name": "Ingrid van Welie",
-        "ceo_linkedin": "https://www.linkedin.com/in/ingrid-van-welie-28095423/",
-        "company_linkedin": "https://www.linkedin.com/company/35666408",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/torpedo-therapeutics/jobs (could not find a dedicated career website)",
-        "description": "High-precision, closed-loop neuromodulation devices",
-        "stage": "Early",
-        "tags": [
-            "Neurotechnology",
-            "Medical Devices",
-            "Biotech"
-        ],
-        "industries": [
-            "Healthcare",
-            "Medical Devices"
-        ],
-        "all_locations": "Boston, MA, USA",
-        "team_size": 5,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Theneo",
-        "slug": "theneo",
-        "ceo_name": "Ana Robakidze",
-        "ceo_linkedin": "https://www.linkedin.com/in/robakidzeana/",
-        "company_linkedin": "https://www.linkedin.com/company/theneoinc",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://theneo.io/careers",
-        "description": "Stripe-like API Docs in just a few clicks",
+        "job_website": "https://www.ycombinator.com/companies/reforged-labs/jobs (could not find a dedicated career website)",
+        "description": "The first AI performance marketing analyst for mobile game marketers",
         "stage": "Early",
         "tags": [
             "Artificial Intelligence",
-            "Developer Tools",
+            "Generative AI",
+            "B2B",
+            "Gaming",
+            "Advertising"
+        ],
+        "industries": [
+            "Consumer",
+            "Gaming"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 15,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Emobi",
+        "slug": "emobi",
+        "ceo_name": "Lin Sun Fa",
+        "ceo_linkedin": "https://www.linkedin.com/in/lsunfa/",
+        "company_linkedin": "https://www.linkedin.com/company/emobi-ai/",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/emobi/jobs (could not find a dedicated career website)",
+        "description": "A single point integration for secure and automated EV charging.",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
             "API",
-            "AI"
+            "Energy",
+            "Electric Vehicles",
+            "ML"
         ],
         "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Francisco, CA, USA; Seattle, WA, USA",
-        "team_size": 21,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Rome",
-        "slug": "rome",
-        "ceo_name": "Craig Weiss",
-        "ceo_linkedin": "https://www.linkedin.com/in/craigweiss28/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/rome/jobs (could not find a dedicated career website)",
-        "description": "The marketplace for truckers",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "Logistics"
-        ],
-        "industries": [
-            "B2B",
-            "Supply Chain and Logistics"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 1,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Broccoli AI",
-        "slug": "broccoli-ai",
-        "ceo_name": "AJ Jain",
-        "ceo_linkedin": "https://www.linkedin.com/in/abhishek-jain9925/",
-        "company_linkedin": "https://www.linkedin.com/company/broccoli-com",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/broccoli-ai/jobs (could not find a dedicated career website)",
-        "description": "AI-native operating system for home service businesses",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Home Services"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 11,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Vimmerse",
-        "slug": "vimmerse",
-        "ceo_name": "Basel Salahieh",
-        "ceo_linkedin": "https://www.linkedin.com/in/baselsalahieh/",
-        "company_linkedin": "https://www.linkedin.com/company/vimmerse",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/vimmerse/jobs (could not find a dedicated career website)",
-        "description": "Bring your photos to life with Vimmerse",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "B2B",
-            "Video",
-            "Advertising",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Jose, CA, USA; Remote",
-        "team_size": 10,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Courtyard.io",
-        "slug": "courtyard-io",
-        "ceo_name": "Nicolas le Jeune",
-        "ceo_linkedin": "https://www.linkedin.com/in/nicolas-le-jeune/",
-        "company_linkedin": "https://www.linkedin.com/company/courtyard-io",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://courtyard.io/careers",
-        "description": "A frictionless, safe, and fun experience to invest in collectibles",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "Sports Tech",
-            "Consumer"
-        ],
-        "industries": [
-            "Fintech",
-            "Asset Management"
-        ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 13,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Nullstone",
-        "slug": "nullstone",
-        "ceo_name": "Brad Sickles",
-        "ceo_linkedin": "https://www.linkedin.com/in/bradsickles/",
-        "company_linkedin": "https://www.linkedin.com/company/nullstone",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/nullstone/jobs (could not find a dedicated career website)",
-        "description": "An easier way to deploy and manage cloud apps",
-        "stage": "Early",
-        "tags": [
-            "Developer Tools",
-            "SaaS",
             "B2B"
         ],
-        "industries": [
-            "B2B",
-            "Infrastructure"
-        ],
-        "all_locations": "Atlanta, GA, USA; Remote",
-        "team_size": 2,
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 9,
         "batch": "Winter 2022"
     },
     {
-        "name": "BotCity",
-        "slug": "botcity",
-        "ceo_name": "Lorhan Caproni",
-        "ceo_linkedin": "https://www.linkedin.com/in/lorhan/",
-        "company_linkedin": "https://www.linkedin.com/company/botcity/",
+        "name": "Palitronica Inc",
+        "slug": "palitronica-inc",
+        "ceo_name": "Sebastian Fischmeister",
+        "ceo_linkedin": "https://www.linkedin.com/in/sebastian-fischmeister-3a07a86/",
+        "company_linkedin": "https://www.linkedin.com/company/76565236",
         "eng": false,
         "remote": false,
-        "job_website": "https://botcity.dev/careers",
-        "description": "Observability and Governance for AI-Generated Python scripts.",
+        "job_website": "https://palitronica.com/careers",
+        "description": "Detect cyber attacks on critical physical infrastructure",
         "stage": "Early",
         "tags": [
-            "Developer Tools",
-            "Open Source",
-            "Infrastructure",
-            "AI"
-        ],
-        "industries": [
-            "B2B",
-            "Engineering, Product and Design"
-        ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 35,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Partna",
-        "slug": "partna",
-        "ceo_name": "Bashir Aminu",
-        "ceo_linkedin": "https://www.linkedin.com/in/bashir-aminu-055a9987/",
-        "company_linkedin": "https://www.linkedin.com/company/payourse",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/partna/jobs (could not find a dedicated career website)",
-        "description": "Your Global payments partner for Africa",
-        "stage": "Early",
-        "tags": [
-            "Fintech"
-        ],
-        "industries": [
-            "Fintech"
-        ],
-        "all_locations": "Wilmington, DE, USA; LA, Nigeria; Remote",
-        "team_size": 16,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cinder",
-        "slug": "cinder-2",
-        "ceo_name": "Glen Wise",
-        "ceo_linkedin": "https://www.linkedin.com/in/glenwise/",
-        "company_linkedin": "https://www.linkedin.com/company/cinder-intelligence",
-        "eng": true,
-        "remote": true,
-        "job_website": "http://www.cinder.co/careers",
-        "description": "Cinder | Responsible AI, Trust & Safety, and Data Labeling At Scale",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "SaaS",
-            "B2B",
-            "Compliance",
-            "Trust & Safety"
+            "Hard Tech",
+            "Hardware",
+            "Security"
         ],
         "industries": [
             "B2B",
             "Security"
         ],
-        "all_locations": "Washington, DC, USA; Remote",
-        "team_size": 20,
+        "all_locations": "Kitchener, ON, Canada; Remote",
+        "team_size": 6,
         "batch": "Winter 2022"
     },
     {
-        "name": "Cash Flow Portal",
-        "slug": "cash-flow-portal",
-        "ceo_name": "Perry Zheng",
-        "ceo_linkedin": "https://www.linkedin.com/in/perryzheng/",
-        "company_linkedin": "https://www.linkedin.com/company/cash-flow-portal",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/cash-flow-portal/jobs (could not find a dedicated career website)",
-        "description": "Investment management platform for real estate",
+        "name": "Dart",
+        "slug": "dart",
+        "ceo_name": "Milad Malek",
+        "ceo_linkedin": "https://www.linkedin.com/in/miladmalek/",
+        "company_linkedin": "https://www.linkedin.com/company/dart-ai",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.dartai.com/careers",
+        "description": "The only truly AI-native project management tool",
         "stage": "Early",
         "tags": [
-            "Marketplace",
-            "SaaS",
-            "Real Estate",
+            "Artificial Intelligence",
+            "Generative AI",
             "B2B",
-            "Proptech"
-        ],
-        "industries": [
-            "Real Estate and Construction",
-            "Housing and Real Estate"
-        ],
-        "all_locations": "Seattle, WA, USA; Remote",
-        "team_size": 19,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Airwork",
-        "slug": "airwork",
-        "ceo_name": "Gary Lin",
-        "ceo_linkedin": "https://www.linkedin.com/in/garyjlin",
-        "company_linkedin": "https://www.linkedin.com/company/airworkhq",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/airwork/jobs (could not find a dedicated career website)",
-        "description": "On-demand labour that's actually good",
-        "stage": "Early",
-        "tags": [
-            "Marketplace",
-            "B2B",
-            "Recruiting",
-            "Enterprise Software",
+            "Productivity",
             "AI"
         ],
         "industries": [
             "B2B",
-            "Recruiting and Talent"
+            "Productivity"
         ],
-        "all_locations": "Toronto, ON, Canada",
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 10,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Soon",
+        "slug": "soon",
+        "ceo_name": "Michael Shattuck",
+        "ceo_linkedin": "https://www.linkedin.com/in/mikeshattuck/",
+        "company_linkedin": "https://linkedin.com/company/soonfinance",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/soon/jobs (could not find a dedicated career website)",
+        "description": "Automated sweep account, invest without the stress of speculating",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "Crypto / Web3",
+            "Investing"
+        ],
+        "industries": [
+            "Fintech",
+            "Consumer Finance"
+        ],
+        "all_locations": "Salt Lake City, UT, USA; Remote",
         "team_size": 4,
         "batch": "Winter 2022"
     },
     {
-        "name": "goodfin",
-        "slug": "goodfin",
-        "ceo_name": "Anna Joo Fee",
-        "ceo_linkedin": "https://www.linkedin.com/in/annajfee/",
-        "company_linkedin": "https://www.linkedin.com/company/74735848",
-        "eng": true,
+        "name": "Armilla AI",
+        "slug": "armilla-ai",
+        "ceo_name": "Dan Adamson",
+        "ceo_linkedin": "https://www.linkedin.com/in/danadamson/",
+        "company_linkedin": "https://www.linkedin.com/company/armilla-ai/",
+        "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/goodfin/jobs (could not find a dedicated career website)",
-        "description": "Building the next generation of wealth",
+        "job_website": "http://www.armilla.ai/careers",
+        "description": "AI/LLM Assessment & Warranty Solutions",
         "stage": "Early",
         "tags": [
+            "Artificial Intelligence",
+            "Machine Learning"
+        ],
+        "industries": [
+            "B2B",
+            "Analytics"
+        ],
+        "all_locations": "Toronto, ON, Canada",
+        "team_size": 14,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "SnapTrade",
+        "slug": "snaptrade",
+        "ceo_name": "Brendan Lee Young",
+        "ceo_linkedin": "https://www.linkedin.com/in/brendanleeyoung/",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/snaptrade/jobs (could not find a dedicated career website)",
+        "description": "Plaid for trading",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
             "Fintech",
-            "AI"
+            "B2B",
+            "API"
         ],
         "industries": [
             "Fintech"
         ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 7,
+        "all_locations": "Fredericton, NB, Canada",
+        "team_size": 17,
         "batch": "Winter 2022"
     },
     {
-        "name": "Hydra",
-        "slug": "hydra",
-        "ceo_name": "Joseph Sciarrino",
-        "ceo_linkedin": "https://www.linkedin.com/in/jsciarrino12/",
-        "company_linkedin": "https://www.linkedin.com/company/hydradatabase",
+        "name": "Bunkyr",
+        "slug": "bunkyr",
+        "ceo_name": "Mike Lewis",
+        "ceo_linkedin": "https://www.linkedin.com/in/mplew-is/",
+        "company_linkedin": "https://linkedin.com/company/bunkyr",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/hydra/jobs (could not find a dedicated career website)",
-        "description": "Serverless Analytics on Postgres",
+        "job_website": "https://www.ycombinator.com/companies/bunkyr/jobs (could not find a dedicated career website)",
+        "description": "Zero-Knowledge security without seed phrases or backup codes",
         "stage": "Early",
         "tags": [
             "Developer Tools",
+            "SaaS",
+            "Crypto / Web3",
+            "B2B",
+            "Security"
+        ],
+        "industries": [
+            "B2B",
+            "Security"
+        ],
+        "all_locations": "Denver, CO, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Sophys",
+        "slug": "sophys",
+        "ceo_name": "Vinith Johnson",
+        "ceo_linkedin": "https://www.linkedin.com/in/vinithjohnson23/",
+        "company_linkedin": "https://www.linkedin.com/company/sophys-health",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/sophys/jobs (could not find a dedicated career website)",
+        "description": "Modernizing Medical Billing with AI",
+        "stage": "Early",
+        "tags": [
             "Analytics",
+            "Healthcare"
+        ],
+        "industries": [
+            "Healthcare"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 1,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Beam",
+        "slug": "beam",
+        "ceo_name": "Eli Mernit",
+        "ceo_linkedin": "https://linkedin.com/in/mernit",
+        "company_linkedin": "https://www.linkedin.com/company/slai-labs",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://beam.cloud/careers",
+        "description": "AI-Native Cloud Platform",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "Open Source",
+            "Cloud Computing"
+        ],
+        "industries": [
+            "B2B",
+            "Infrastructure"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Zorba",
+        "slug": "zorba",
+        "ceo_name": "Or Preiss",
+        "ceo_linkedin": "https://www.linkedin.com/in/or-preiss-a0326758/",
+        "company_linkedin": "https://www.linkedin.com/company/getzorba/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/zorba/jobs (could not find a dedicated career website)",
+        "description": "AI copilot for real-estate sales teams, powered by proprietary data",
+        "stage": "Early",
+        "tags": [
+            "Real Estate",
+            "Sales",
+            "Marketing"
+        ],
+        "industries": [
+            "Real Estate and Construction"
+        ],
+        "all_locations": "Saint Petersburg, FL, USA; Tel Aviv-Yafo, Tel Aviv District, Israel",
+        "team_size": null,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Azuki",
+        "slug": "azuki",
+        "ceo_name": "Abbas Jaffery",
+        "ceo_linkedin": "https://www.linkedin.com/in/basoukazuma/",
+        "company_linkedin": "https://www.linkedin.com/company/readazuki/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.azuki.co/careers",
+        "description": "Japanese comic subscription service",
+        "stage": "Early",
+        "tags": [
+            "Entertainment",
+            "Subscriptions"
+        ],
+        "industries": [
+            "Consumer",
+            "Content"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "LanceDB",
+        "slug": "lancedb",
+        "ceo_name": "Chang She",
+        "ceo_linkedin": "https://www.linkedin.com/in/changshe",
+        "company_linkedin": "https://www.linkedin.com/company/lancedb/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://lancedb.com/careers",
+        "description": "Open-source, serverless vectordb for production-scale generative AI",
+        "stage": "Early",
+        "tags": [
+            "AIOps",
+            "Machine Learning",
             "Open Source",
             "Data Engineering"
         ],
@@ -1822,563 +544,1234 @@
             "B2B",
             "Infrastructure"
         ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Arintra",
-        "slug": "arintra",
-        "ceo_name": "Nitesh Shroff",
-        "ceo_linkedin": "https://www.linkedin.com/in/nitesh-shroff-08855148",
-        "company_linkedin": "https://www.linkedin.com/company/arintra",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://arintra.com/careers",
-        "description": "Medical coding automation",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "Health Tech",
-            "B2B",
-            "Digital Health",
-            "Healthcare"
-        ],
-        "industries": [
-            "Healthcare",
-            "Healthcare IT"
-        ],
-        "all_locations": "Austin, TX, USA",
-        "team_size": 20,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Sprites",
-        "slug": "sprites",
-        "ceo_name": "Siamak Freydoonnejad",
-        "ceo_linkedin": "https://www.linkedin.com/in/siamakf/",
-        "company_linkedin": "https://www.linkedin.com/company/sprites-ai",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/sprites/jobs (could not find a dedicated career website)",
-        "description": "Prompt-to-app AI tool builder for non technical users",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Generative AI",
-            "Consumer",
-            "B2B",
-            "No-code"
-        ],
-        "industries": [
-            "B2B",
-            "Productivity"
-        ],
         "all_locations": "San Francisco, CA, USA",
-        "team_size": 5,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Benson",
-        "slug": "benson",
-        "ceo_name": "Phillip Aubrey",
-        "ceo_linkedin": "https://www.linkedin.com/in/phillip-aubrey-45119ba1/",
-        "company_linkedin": null,
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/benson/jobs (could not find a dedicated career website)",
-        "description": "Easily invest like the rich",
-        "stage": "Early",
-        "tags": [
-            "Investing"
-        ],
-        "industries": [
-            "Fintech",
-            "Consumer Finance"
-        ],
-        "all_locations": "Oakland, CA, USA; Remote",
-        "team_size": 3,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Argo",
-        "slug": "argo",
-        "ceo_name": "Arcadiy Golubovich",
-        "ceo_linkedin": "https://www.linkedin.com/in/arcadiy-golubovich-9a515125/",
-        "company_linkedin": "https://www.linkedin.com/company/43319673",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://Argo.LA/careers",
-        "description": "A social streaming platform powered by creators and fans ",
-        "stage": "Early",
-        "tags": [
-            "Crypto / Web3",
-            "Consumer",
-            "Entertainment",
-            "Social",
-            "Infrastructure"
-        ],
-        "industries": [
-            "Consumer",
-            "Content"
-        ],
-        "all_locations": "Los Angeles, CA, USA; Remote",
         "team_size": 10,
         "batch": "Winter 2022"
     },
     {
-        "name": "Lovage",
-        "slug": "lovage",
-        "ceo_name": "Austin Petersen",
-        "ceo_linkedin": "https://www.linkedin.com/in/austinpetersenlovagelabs/",
-        "company_linkedin": "https://www.linkedin.com/company/lovage-labs",
+        "name": "Stock Unlock",
+        "slug": "stock-unlock",
+        "ceo_name": "Jake Ruth",
+        "ceo_linkedin": "https://www.linkedin.com/in/jakeruth/",
+        "company_linkedin": "https://www.linkedin.com/company/stock-unlock/",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/lovage/jobs (could not find a dedicated career website)",
-        "description": "Smart, virtual receptionists for local businesses.",
+        "job_website": "https://stockunlock.com//careers",
+        "description": "Web-app | investment education and analysis tools for retail investors",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "SaaS",
+            "Finance",
+            "Investing"
+        ],
+        "industries": [
+            "Fintech"
+        ],
+        "all_locations": "New York, NY, USA; Remote",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "MosaicVoice",
+        "slug": "mosaicvoice",
+        "ceo_name": "Julian McCarty",
+        "ceo_linkedin": "https://www.linkedin.com/in/julianmccarty/",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://mosaicvoice.ai//careers",
+        "description": "We make it simple for call centers to automate quality assurance.",
         "stage": "Early",
         "tags": [
             "Artificial Intelligence",
-            "SaaS",
-            "B2B",
-            "Productivity"
+            "Call Center"
         ],
         "industries": [
             "B2B",
             "Operations"
         ],
-        "all_locations": "Lehi, UT, USA",
-        "team_size": 7,
+        "all_locations": "Oakland, CA, USA; Remote",
+        "team_size": 4,
         "batch": "Winter 2022"
     },
     {
-        "name": "Dojah Inc",
-        "slug": "dojah-inc",
-        "ceo_name": "Tobi Ololade",
-        "ceo_linkedin": "https://www.linkedin.com/in/ololaday/",
-        "company_linkedin": "https://www.linkedin.com/company/dojah",
+        "name": "Firezone",
+        "slug": "firezone",
+        "ceo_name": "Jamil Bou Kheir",
+        "ceo_linkedin": "https://linkedin.com/in/jamilbk",
+        "company_linkedin": "https://linkedin.com/company/firezonehq",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.dojah.io/careers",
-        "description": "Prevent Fraud and Onboard Users Faster",
+        "job_website": "https://www.ycombinator.com/companies/firezone/jobs (could not find a dedicated career website)",
+        "description": "Easiest, most secure way to set up Zero Trust Access for your team",
         "stage": "Early",
         "tags": [
-            "Fintech",
-            "SaaS",
-            "Identity",
+            "DevSecOps",
+            "Next-gen Network Security",
+            "B2B",
+            "Security",
+            "Open Source"
+        ],
+        "industries": [
+            "B2B",
+            "Security"
+        ],
+        "all_locations": "Mountain View, CA, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Agentnoon",
+        "slug": "agentnoon",
+        "ceo_name": "Ali Nawab",
+        "ceo_linkedin": "https://ca.linkedin.com/in/alinawab",
+        "company_linkedin": "https://www.linkedin.com/company/agentnoon",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://agentnoon.com/careers",
+        "description": "Org design and workforce planning platform to drive org transformation",
+        "stage": "Early",
+        "tags": [],
+        "industries": [
+            "B2B",
+            "Human Resources"
+        ],
+        "all_locations": "Toronto, ON, Canada",
+        "team_size": 16,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Versable",
+        "slug": "versable",
+        "ceo_name": "Christina Seong",
+        "ceo_linkedin": "https://www.linkedin.com/in/christinaseong/",
+        "company_linkedin": "https://www.linkedin.com/company/versableai/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/versable/jobs (could not find a dedicated career website)",
+        "description": "AI powered product description enhancement for the auto parts industry",
+        "stage": "Early",
+        "tags": [
+            "Manufacturing",
+            "Data Engineering",
+            "AI",
+            "Automotive"
+        ],
+        "industries": [
+            "B2B",
+            "Retail"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Cerebrium",
+        "slug": "cerebrium",
+        "ceo_name": "Michael Louis",
+        "ceo_linkedin": "https://www.linkedin.com/in/michael-louis-94104a113/",
+        "company_linkedin": "https://www.linkedin.com/company/cerebrium",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/cerebrium/jobs (could not find a dedicated career website)",
+        "description": "Serverless Infrastructure Platform for AI",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "Infrastructure",
             "AI"
         ],
         "industries": [
             "B2B",
             "Infrastructure"
         ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 22,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "SubscriptionFlow",
-        "slug": "subscriptionflow",
-        "ceo_name": "Kashif Saleem",
-        "ceo_linkedin": "https://www.linkedin.com/in/kashifsaleem786/",
-        "company_linkedin": "https://www.linkedin.com/company/subscription-flow/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/subscriptionflow/jobs (could not find a dedicated career website)",
-        "description": "AI based Customizable Subscription & Revenue Management Platform",
-        "stage": "Early",
-        "tags": [
-            "AIOps",
-            "Fintech",
-            "SaaS"
-        ],
-        "industries": [
-            "B2B",
-            "Sales"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 9,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Grey",
-        "slug": "grey",
-        "ceo_name": "Idorenyin Obong",
-        "ceo_linkedin": "https://www.linkedin.com/in/kingidee/",
-        "company_linkedin": "https://www.linkedin.com/company/greyfinance",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://grey.co/careers",
-        "description": "Banking services for remote workers and digital nomads",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "Consumer",
-            "B2B",
-            "Neobank"
-        ],
-        "industries": [
-            "Fintech"
-        ],
-        "all_locations": "San Francisco, CA, USA; LA, Nigeria; Remote",
-        "team_size": 15,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Alga Biosciences",
-        "slug": "alga-biosciences",
-        "ceo_name": "Alexander Brown",
-        "ceo_linkedin": "https://www.linkedin.com/in/alex-brown-5ba620113/",
-        "company_linkedin": "https://www.linkedin.com/company/alga-biosciences",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/alga-biosciences/jobs (could not find a dedicated career website)",
-        "description": "We stop cows from burping methane.",
-        "stage": "Early",
-        "tags": [
-            "Biotech",
-            "Climate",
-            "Agriculture"
-        ],
-        "industries": [
-            "Industrials",
-            "Climate"
-        ],
-        "all_locations": "Berkeley, CA, USA; San Francisco, CA, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Agency",
-        "slug": "agency",
-        "ceo_name": "Amir Tarighat",
-        "ceo_linkedin": "https://www.linkedin.com/in/atarighat/",
-        "company_linkedin": "https://www.linkedin.com/company/getagency22",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/agency/jobs (could not find a dedicated career website)",
-        "description": "Solving Complex Security and Compliance",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Compliance",
-            "Security",
-            "Enterprise"
-        ],
-        "industries": [
-            "B2B",
-            "Security"
-        ],
         "all_locations": "New York, NY, USA",
-        "team_size": null,
+        "team_size": 4,
         "batch": "Winter 2022"
     },
     {
-        "name": "Tola",
-        "slug": "tola",
-        "ceo_name": "Alen Cvisic",
-        "ceo_linkedin": "https://www.linkedin.com/in/alencvisic/",
-        "company_linkedin": "https://www.linkedin.com/company/tolahq",
+        "name": "Pyrls",
+        "slug": "pyrls",
+        "ceo_name": "Derek Borkowski",
+        "ceo_linkedin": "https://www.linkedin.com/in/derek-borkowski/",
+        "company_linkedin": "https://www.linkedin.com/showcase/get-pyrls/",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/tola/jobs (could not find a dedicated career website)",
-        "description": "The simple, fast and free tool for businesses to pay and get paid",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "SaaS"
-        ],
-        "industries": [
-            "Fintech",
-            "Payments"
-        ],
-        "all_locations": "San Francisco, CA, USA; New York, NY, USA; Remote",
-        "team_size": 12,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Livedocs",
-        "slug": "livedocs",
-        "ceo_name": "Arsalan Bashir",
-        "ceo_linkedin": "https://www.linkedin.com/in/arslnb",
-        "company_linkedin": null,
-        "eng": true,
-        "remote": true,
-        "job_website": "https://livedocs.com/careers",
-        "description": "A New Kind of Notebook for Data Storytelling",
+        "job_website": "https://www.ycombinator.com/companies/pyrls/jobs (could not find a dedicated career website)",
+        "description": "Modern medical reference app for healthcare providers",
         "stage": "Early",
         "tags": [
             "SaaS",
-            "Productivity",
-            "Analytics"
+            "Healthcare"
         ],
         "industries": [
-            "B2B",
-            "Analytics"
+            "Healthcare",
+            "Healthcare IT"
         ],
-        "all_locations": "San Francisco, CA, USA; Remote",
+        "all_locations": "Minneapolis, MN, USA; Remote",
         "team_size": 3,
         "batch": "Winter 2022"
     },
     {
-        "name": "LunaJoy Health",
-        "slug": "lunajoy-health",
-        "ceo_name": "Sipra Laddha",
-        "ceo_linkedin": "https://www.linkedin.com/in/sipraladdha",
-        "company_linkedin": "https://www.linkedin.com/company/lunajoy",
+        "name": "Unlayer",
+        "slug": "unlayer",
+        "ceo_name": "Adeel Raza",
+        "ceo_linkedin": "https://www.linkedin.com/in/adeelr/",
+        "company_linkedin": "https://www.linkedin.com/company/unlayer/",
         "eng": false,
-        "remote": true,
-        "job_website": "http://HelloLunaJoy.com/careers",
-        "description": "AI-powered scalable infrastructure + mental health services, starting\u2026",
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/unlayer/jobs (could not find a dedicated career website)",
+        "description": "Unlayer makes embeddable email and web editing software.",
         "stage": "Early",
         "tags": [
-            "Mental Health Tech",
-            "Digital Health",
-            "Femtech"
+            "Developer Tools",
+            "SaaS",
+            "Design Tools"
         ],
         "industries": [
-            "Healthcare",
-            "Healthcare Services"
+            "B2B",
+            "Productivity"
         ],
-        "all_locations": "Atlanta, GA, USA",
-        "team_size": 6,
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 35,
         "batch": "Winter 2022"
     },
     {
-        "name": "Sero",
-        "slug": "sero",
-        "ceo_name": "Jai Thirani",
-        "ceo_linkedin": "https://www.linkedin.com/in/jai-thirani-a0381112b/",
-        "company_linkedin": "https://www.linkedin.com/company/sero-so/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/sero/jobs (could not find a dedicated career website)",
-        "description": "Customer onboarding built for B2B SaaS",
+        "name": "Ankr Health",
+        "slug": "ankr-health",
+        "ceo_name": "Arpit Rao",
+        "ceo_linkedin": "https://www.linkedin.com/in/arpit-rao",
+        "company_linkedin": "https://www.linkedin.com/company/ankr-us/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/ankr-health/jobs (could not find a dedicated career website)",
+        "description": "Virtualizing brick-mortar infrastructures of clinics w/ generative AI ",
         "stage": "Early",
         "tags": [
-            "SaaS",
+            "Generative AI",
+            "Telehealth",
             "B2B",
-            "Customer Success",
-            "Customer Support"
+            "Digital Health",
+            "Telemedicine"
+        ],
+        "industries": [
+            "Healthcare"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 30,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Viva Labs",
+        "slug": "viva-labs",
+        "ceo_name": "Vishal Jain",
+        "ceo_linkedin": "https://www.linkedin.com/in/vishal-jain-614254111/",
+        "company_linkedin": "https://www.linkedin.com/company/viva-labs-ai",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/viva-labs/jobs (could not find a dedicated career website)",
+        "description": "Winning Video Ads with AI",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Social Media",
+            "Video",
+            "Marketing",
+            "Advertising"
         ],
         "industries": [
             "B2B"
-        ],
-        "all_locations": "Chicago, IL, USA; Remote",
-        "team_size": 2,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Posh",
-        "slug": "posh",
-        "ceo_name": "Wesley Zheng",
-        "ceo_linkedin": "https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button",
-        "company_linkedin": "https://www.linkedin.com/company/poshenergy",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/posh/jobs (could not find a dedicated career website)",
-        "description": "Making sustainable batteries",
-        "stage": "Early",
-        "tags": [
-            "Energy Storage",
-            "Robotics",
-            "Climate",
-            "ClimateTech"
-        ],
-        "industries": [
-            "Industrials",
-            "Climate"
         ],
         "all_locations": "San Francisco, CA, USA",
         "team_size": 4,
         "batch": "Winter 2022"
     },
     {
-        "name": "Toko",
-        "slug": "toko",
-        "ceo_name": "Jen Liu",
-        "ceo_linkedin": "https://www.linkedin.com/in/jenkliu/",
-        "company_linkedin": null,
+        "name": "Hyperbeam",
+        "slug": "hyperbeam",
+        "ceo_name": "Philip Scott",
+        "ceo_linkedin": "https://www.linkedin.com/in/philip-j-scott/",
+        "company_linkedin": "https://www.linkedin.com/company/hyperbeam-api",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/toko/jobs (could not find a dedicated career website)",
-        "description": "Learn English by speaking with an AI",
-        "stage": "Early",
-        "tags": [
-            "AI-Enhanced Learning",
-            "Education",
-            "Generative AI",
-            "Machine Learning",
-            "Consumer"
-        ],
-        "industries": [
-            "Education"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 6,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Cogram",
-        "slug": "cogram",
-        "ceo_name": "Alexander von Boetticher",
-        "ceo_linkedin": "https://www.linkedin.com/in/alexvboe/",
-        "company_linkedin": "https://www.linkedin.com/company/cogramai",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/cogram/jobs (could not find a dedicated career website)",
-        "description": "The AI Platform for Architects, Builders, and Engineers",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "B2B"
-        ],
-        "industries": [
-            "B2B",
-            "Productivity"
-        ],
-        "all_locations": "New York, NY, USA",
-        "team_size": 15,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Velt",
-        "slug": "velt",
-        "ceo_name": "Rakesh Goyal",
-        "ceo_linkedin": "https://www.linkedin.com/in/rmgoyal/",
-        "company_linkedin": "https://www.linkedin.com/company/veltjs/",
-        "eng": true,
-        "remote": true,
-        "job_website": "https://velt.dev/careers",
-        "description": "Add powerful collaboration features to your product ridiculously fast.",
+        "job_website": "https://hyperbeam.com?ch=yc/careers",
+        "description": "API for shared embeddable web browsers",
         "stage": "Early",
         "tags": [
             "Developer Tools",
-            "SaaS",
-            "Collaboration",
+            "eLearning",
+            "Virtual Reality",
             "API",
             "Remote Work"
         ],
         "industries": [
             "B2B",
-            "Productivity"
+            "Engineering, Product and Design"
         ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 15,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Tuva Health",
-        "slug": "tuva-health",
-        "ceo_name": "Aaron Neiderhiser",
-        "ceo_linkedin": "https://www.linkedin.com/in/aaronneiderhiser/",
-        "company_linkedin": "https://www.linkedin.com/company/tuva-health/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/tuva-health/jobs (could not find a dedicated career website)",
-        "description": "Open source software that cleans and transforms messy healthcare data.",
-        "stage": "Early",
-        "tags": [
-            "SaaS",
-            "B2B",
-            "Digital Health"
-        ],
-        "industries": [
-            "Healthcare",
-            "Healthcare IT"
-        ],
-        "all_locations": "Salt Lake City, UT, USA; Remote",
+        "all_locations": "Waterloo, ON, Canada; Remote",
         "team_size": 3,
         "batch": "Winter 2022"
     },
     {
-        "name": "Complete",
-        "slug": "complete",
-        "ceo_name": "Rani Mavram",
-        "ceo_linkedin": "http://linkedin.com/in/ranimavram",
-        "company_linkedin": "https://www.linkedin.com/company/withcomplete",
+        "name": "Bobidi",
+        "slug": "bobidi",
+        "ceo_name": "Jeong-Suh Choi",
+        "ceo_linkedin": "https://www.linkedin.com/in/choichoi/",
+        "company_linkedin": "https://www.linkedin.com/company/bobidi-inc/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/bobidi/jobs (could not find a dedicated career website)",
+        "description": "Restaurant Loyalty Using Quiz",
+        "stage": "Early",
+        "tags": [
+            "Generative AI",
+            "Machine Learning",
+            "Human Resources",
+            "AI"
+        ],
+        "industries": [
+            "B2B",
+            "Marketing"
+        ],
+        "all_locations": "Los Gatos, CA, USA",
+        "team_size": 7,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Dioptra",
+        "slug": "dioptra",
+        "ceo_name": "Pierre Arnoux",
+        "ceo_linkedin": "https://www.linkedin.com/in/pierrehadrienarnoux/",
+        "company_linkedin": null,
         "eng": true,
         "remote": false,
-        "job_website": "https://complete.so/careers",
-        "description": "The complete way to do compensation",
+        "job_website": "https://www.ycombinator.com/companies/dioptra/jobs (could not find a dedicated career website)",
+        "description": "Automated contract review with AI",
         "stage": "Early",
         "tags": [
-            "SaaS",
-            "B2B",
-            "HR Tech"
+            "Generative AI",
+            "Legal",
+            "LegalTech"
         ],
         "industries": [
             "B2B",
-            "Human Resources"
-        ],
-        "all_locations": "San Francisco, CA, USA",
-        "team_size": 5,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "NearWave",
-        "slug": "nearwave",
-        "ceo_name": "Dr. Roy Stillwell, PhD",
-        "ceo_linkedin": "https://www.linkedin.com/in/roy-stillwell-12448916/",
-        "company_linkedin": "https://www.linkedin.com/company/nearwave/about/",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/nearwave/jobs (could not find a dedicated career website)",
-        "description": "Helping physicians select the right therapy for breast cancer patients",
-        "stage": "Early",
-        "tags": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Hardware",
-            "SaaS",
-            "Medical Devices"
-        ],
-        "industries": [
-            "Healthcare",
-            "Medical Devices"
-        ],
-        "all_locations": "Austin, TX, USA; South Bend, IN, USA",
-        "team_size": 3,
-        "batch": "Winter 2022"
-    },
-    {
-        "name": "Stairs Financial",
-        "slug": "stairs-financial",
-        "ceo_name": "Malcolm-Wiley Floyd",
-        "ceo_linkedin": "https://www.linkedin.com/in/mwfloyd/",
-        "company_linkedin": "https://www.linkedin.com/company/stairs-financial",
-        "eng": false,
-        "remote": false,
-        "job_website": "https://stairsfinancial.com/careers",
-        "description": "Find a home you can actually afford",
-        "stage": "Early",
-        "tags": [
-            "Fintech",
-            "GovTech",
-            "Proptech"
-        ],
-        "industries": [
-            "Fintech",
-            "Consumer Finance"
+            "Legal"
         ],
         "all_locations": "New York, NY, USA",
         "team_size": null,
         "batch": "Winter 2022"
     },
     {
-        "name": "PermitFlow",
-        "slug": "permitflow",
-        "ceo_name": "Francis Thumpasery",
-        "ceo_linkedin": "https://www.linkedin.com/in/francis-thumpasery-1b6bbb25/",
-        "company_linkedin": "https://www.linkedin.com/company/permitflow/",
+        "name": "Atlas",
+        "slug": "atlas-2",
+        "ceo_name": "Jon O'Bryan",
+        "ceo_linkedin": "https://www.linkedin.com/in/jon-obryan/",
+        "company_linkedin": "https://www.linkedin.com/company/atlas-support-inc",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/atlas-2/jobs (could not find a dedicated career website)",
+        "description": "Modern customer support platform replacement for Intercom and Zendesk",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "B2B",
+            "Customer Success",
+            "Customer Service",
+            "Customer Support"
+        ],
+        "industries": [
+            "B2B",
+            "Operations"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 18,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Orca",
+        "slug": "orca",
+        "ceo_name": "DY \u200b",
+        "ceo_linkedin": "https://www.linkedin.com/in/dyyy/",
+        "company_linkedin": "https://www.linkedin.com/company/orcafina",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://orca.fyi//careers",
+        "description": "Banking for Gen Z, on steroids.",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "Neobank"
+        ],
+        "industries": [
+            "Fintech"
+        ],
+        "all_locations": "Austin, TX, USA",
+        "team_size": 4,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Ozone",
+        "slug": "ozone",
+        "ceo_name": "Max von Wolff",
+        "ceo_linkedin": "https://www.linkedin.com/in/maxvwolff/",
+        "company_linkedin": "https://www.linkedin.com/company/ozoneapp",
         "eng": true,
         "remote": true,
-        "job_website": "https://www.ycombinator.com/companies/permitflow/jobs (could not find a dedicated career website)",
-        "description": "TurboTax for Construction Permitting",
-        "stage": "Growth",
+        "job_website": "https://www.ycombinator.com/companies/ozone/jobs (could not find a dedicated career website)",
+        "description": "Figma for video",
+        "stage": "Early",
         "tags": [
-            "GovTech",
+            "Productivity",
+            "Collaboration",
+            "Design Tools"
+        ],
+        "industries": [
+            "Consumer"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 8,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Instant Labs",
+        "slug": "instant-labs",
+        "ceo_name": "Beau Hartshorne",
+        "ceo_linkedin": "https://www.linkedin.com/in/beauhartshorne",
+        "company_linkedin": "https://www.linkedin.com/company/instant-labs/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/instant-labs/jobs (could not find a dedicated career website)",
+        "description": "Instant Labs builds modern tools to help you find and buy domain\u2026",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "B2B",
+            "Marketing"
+        ],
+        "industries": [
+            "B2B",
+            "Marketing"
+        ],
+        "all_locations": "Victoria, BC, Canada; Remote",
+        "team_size": 1,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Corveus Medical",
+        "slug": "corveus-medical",
+        "ceo_name": "Tyler Melton",
+        "ceo_linkedin": "https://www.linkedin.com/in/tylermelton/",
+        "company_linkedin": "https://www.linkedin.com/company/corveus-medical",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/corveus-medical/jobs (could not find a dedicated career website)",
+        "description": "Catheter-based solution to treat chronic heart failure. ",
+        "stage": "Early",
+        "tags": [
+            "Medical Devices"
+        ],
+        "industries": [
+            "Healthcare",
+            "Medical Devices"
+        ],
+        "all_locations": "Houston, TX, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Alixia",
+        "slug": "alixia",
+        "ceo_name": "Olof Mollstedt",
+        "ceo_linkedin": "https://www.linkedin.com/in/olof-mollstedt-95b4a1/",
+        "company_linkedin": "https://www.linkedin.com/company/alixia-therapeutics/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/alixia/jobs (could not find a dedicated career website)",
+        "description": "Targeting the Tumor Ecosystem to address cancer drug resistance.",
+        "stage": "Early",
+        "tags": [
+            "Biotech",
+            "Therapeutics",
+            "Drug discovery",
+            "Oncology",
+            "Biotechnology"
+        ],
+        "industries": [
+            "Healthcare",
+            "Therapeutics"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "HypaHub",
+        "slug": "hypahub",
+        "ceo_name": "Hugo Lam",
+        "ceo_linkedin": "https://www.linkedin.com/in/hugoyklam/",
+        "company_linkedin": "https://www.linkedin.com/company/hypahub",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/hypahub/jobs (could not find a dedicated career website)",
+        "description": "A Cloud-Based Bioinformatics and AI Platform ",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "Biotech",
+            "Analytics"
+        ],
+        "industries": [
+            "B2B",
+            "Analytics"
+        ],
+        "all_locations": "Sunnyvale, CA, USA",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Myria",
+        "slug": "myria",
+        "ceo_name": "Rey Flemings",
+        "ceo_linkedin": "http://linkedin.com/in/reyflemings/",
+        "company_linkedin": "https://www.linkedin.com/company/itonmyria",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/myria/jobs (could not find a dedicated career website)",
+        "description": "A marketplace of luxury services for the ultra-wealthy",
+        "stage": "Early",
+        "tags": [
+            "Marketplace",
+            "Consumer",
+            "Community"
+        ],
+        "industries": [
+            "Consumer"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 7,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Vendoo",
+        "slug": "vendoo",
+        "ceo_name": "Thomas Rivas",
+        "ceo_linkedin": "https://www.linkedin.com/in/trivassi/",
+        "company_linkedin": "https://www.linkedin.com/company/vendoo-co/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://vendoo.co/careers",
+        "description": "We help online sellers manage a sales business on multiple platforms. ",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "E-commerce"
+        ],
+        "industries": [
+            "Consumer"
+        ],
+        "all_locations": "Washington, DC, USA; Remote",
+        "team_size": 55,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Koala",
+        "slug": "koala",
+        "ceo_name": "Xavier Lesage Moretti",
+        "ceo_linkedin": "https://www.linkedin.com/in/xavier-lesage-moretti/",
+        "company_linkedin": "https://www.linkedin.com/company/teachwithkoala",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/koala/jobs (could not find a dedicated career website)",
+        "description": "Minecraft for Teachers",
+        "stage": "Early",
+        "tags": [
+            "Education",
+            "Marketplace",
+            "Gaming",
+            "Metaverse"
+        ],
+        "industries": [
+            "Education"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 11,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Rownd",
+        "slug": "rownd",
+        "ceo_name": "Robert Thelen",
+        "ceo_linkedin": "https://www.linkedin.com/in/robertthelen/",
+        "company_linkedin": "https://www.linkedin.com/company/rownd",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/rownd/jobs (could not find a dedicated career website)",
+        "description": "One platform for auth, messaging, payments & AI-ready services.",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "SaaS",
+            "Security"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "Raleigh, NC, USA",
+        "team_size": 7,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Industrial Next",
+        "slug": "industrial-next",
+        "ceo_name": "Lukas Pankau",
+        "ceo_linkedin": "https://www.linkedin.com/in/lukaspankau/",
+        "company_linkedin": "https://www.linkedin.com/company/industrial-next/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/industrial-next/jobs (could not find a dedicated career website)",
+        "description": "Tesla autonomous manufacturing for everyone",
+        "stage": "Early",
+        "tags": [
+            "Hard Tech",
+            "Robotics",
+            "Manufacturing",
+            "AI"
+        ],
+        "industries": [
+            "Industrials",
+            "Manufacturing and Robotics"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 9,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Invert",
+        "slug": "invert",
+        "ceo_name": "Martin T. Permin",
+        "ceo_linkedin": "https://www.linkedin.com/in/martin-tromp-permin-99064792/",
+        "company_linkedin": "https://www.linkedin.com/company/invertinc",
+        "eng": true,
+        "remote": true,
+        "job_website": "http://www.invertbio.com//careers",
+        "description": "Data analytics software for biomanufacturing.",
+        "stage": "Early",
+        "tags": [
+            "Cellular Agriculture",
+            "Machine Learning",
+            "Synthetic Biology",
+            "Biotech"
+        ],
+        "industries": [
+            "Healthcare",
+            "Industrial Bio"
+        ],
+        "all_locations": "San Francisco, CA, USA; Copenhagen, Denmark; Remote",
+        "team_size": 25,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Dynamo AI",
+        "slug": "dynamo-ai",
+        "ceo_name": "Christian Lau",
+        "ceo_linkedin": "https://www.linkedin.com/in/christian-lau-18055546",
+        "company_linkedin": "https://www.linkedin.com/company/dynamofl",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/dynamo-ai/jobs (could not find a dedicated career website)",
+        "description": "Compliant-Ready AI for the Enterprise",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "Privacy",
+            "Data Engineering"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 40,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "TeamOut",
+        "slug": "teamout",
+        "ceo_name": "Thomas Mazimann",
+        "ceo_linkedin": "https://www.linkedin.com/in/thomas-mazimann/",
+        "company_linkedin": "https://www.linkedin.com/company/teamoutting/",
+        "eng": false,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/teamout/jobs (could not find a dedicated career website)",
+        "description": "Online marketplace for team retreat venues",
+        "stage": "Early",
+        "tags": [
+            "Marketplace",
+            "Travel"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 10,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Gym Class - by IRL Studios",
+        "slug": "gym-class-by-irl-studios",
+        "ceo_name": "Matthew Harris",
+        "ceo_linkedin": "https://www.linkedin.com/in/matthew-harris-8566ba164/",
+        "company_linkedin": "https://www.linkedin.com/company/gymclassvr/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/gym-class-by-irl-studios/jobs (could not find a dedicated career website)",
+        "description": "Play sports in virtual reality",
+        "stage": "Early",
+        "tags": [
+            "Virtual Reality",
+            "Consumer",
+            "Gaming",
+            "Social",
+            "AI"
+        ],
+        "industries": [
+            "Consumer",
+            "Virtual and Augmented Reality"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 16,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Fleetzero",
+        "slug": "fleetzero",
+        "ceo_name": "Steven Henderson",
+        "ceo_linkedin": "http://www.linkedin.com/in/stevenhenderson",
+        "company_linkedin": "https://www.linkedin.com/company/fleetzero/",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/fleetzero/jobs (could not find a dedicated career website)",
+        "description": "Battery-electric cargo ships. ",
+        "stage": "Early",
+        "tags": [
+            "Climate"
+        ],
+        "industries": [
+            "Industrials"
+        ],
+        "all_locations": "Houston, TX, USA; Remote",
+        "team_size": 15,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Nyckel",
+        "slug": "nyckel",
+        "ceo_name": "Oscar Beijbom",
+        "ceo_linkedin": "https://www.linkedin.com/in/oscar-beijbom-696aa6/",
+        "company_linkedin": "https://www.linkedin.com/company/nyckelai/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.nyckel.com/careers",
+        "description": "Classify Anything",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "API",
+            "AI"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "CA, USA; Remote",
+        "team_size": 4,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Spinach AI",
+        "slug": "spinach-ai",
+        "ceo_name": "Matan Talmi",
+        "ceo_linkedin": "https://www.linkedin.com/in/matantalmi/",
+        "company_linkedin": "https://www.linkedin.com/company/spinach-ai/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/spinach-ai/jobs (could not find a dedicated career website)",
+        "description": "Meetings Powered by AI",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "SaaS",
+            "Productivity",
+            "Collaboration",
+            "Remote Work"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "Nashville, TN, USA; Remote",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Blaze",
+        "slug": "blaze",
+        "ceo_name": "Lauren Rothwell",
+        "ceo_linkedin": "https://www.linkedin.com/in/lauren-rothwell-8403b052/",
+        "company_linkedin": "https://www.linkedin.com/company/withblazeapp",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/blaze/jobs (could not find a dedicated career website)",
+        "description": "Marketing automation for the modern world",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "B2B",
+            "Sales",
+            "Marketing"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 10,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Nest Genomics",
+        "slug": "nest-genomics",
+        "ceo_name": "Moran Snir",
+        "ceo_linkedin": "https://www.linkedin.com/in/moran-ronnie-shochat-snir-a29a23",
+        "company_linkedin": "https://www.linkedin.com/company/nesthealth",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/nest-genomics/jobs (could not find a dedicated career website)",
+        "description": "Software to launch and integrate genetics into clinical care",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "Health Tech",
+            "Digital Health",
+            "Genomics",
+            "Primary Care"
+        ],
+        "industries": [
+            "Healthcare",
+            "Healthcare IT"
+        ],
+        "all_locations": "New York, NY, USA; Remote",
+        "team_size": 11,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Brown Foods",
+        "slug": "brown-foods",
+        "ceo_name": "Sohail Gupta",
+        "ceo_linkedin": "https://www.linkedin.com/in/sohail-gupta-b4226412/",
+        "company_linkedin": "https://www.linkedin.com/company/brownfoods/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/brown-foods/jobs (could not find a dedicated career website)",
+        "description": "Making 'REAL' Milk without any Cows!",
+        "stage": "Early",
+        "tags": [
+            "Cellular Agriculture",
+            "Biotech",
+            "Climate",
+            "Food Tech"
+        ],
+        "industries": [
+            "Healthcare",
+            "Industrial Bio"
+        ],
+        "all_locations": "Boston, MA, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Perl Street",
+        "slug": "perl-street",
+        "ceo_name": "Tooraj Arvajeh",
+        "ceo_linkedin": "https://www.linkedin.com/in/toorajarvajeh/",
+        "company_linkedin": "https://www.linkedin.com/company/perl-street/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/perl-street/jobs (could not find a dedicated career website)",
+        "description": "Financing the next-generation of infrastructure projects",
+        "stage": "Early",
+        "tags": [
+            "Climate"
+        ],
+        "industries": [
+            "Fintech",
+            "Credit and Lending"
+        ],
+        "all_locations": "Austin, TX, USA; Remote",
+        "team_size": 4,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Stably AI",
+        "slug": "stably-ai",
+        "ceo_name": "Jinjing Liang",
+        "ceo_linkedin": "https://www.linkedin.com/in/jinjingliang/",
+        "company_linkedin": "https://www.linkedin.com/company/90996500",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/stably-ai/jobs (could not find a dedicated career website)",
+        "description": "AI Testing that Writes, Runs & Maintains Tests for Every PR & Release",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "SaaS",
+            "DevOps",
+            "Web Development",
+            "AI"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 8,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Loops",
+        "slug": "loops",
+        "ceo_name": "Chris Frantz",
+        "ceo_linkedin": "https://www.linkedin.com/in/ctfrantz/",
+        "company_linkedin": "https://www.linkedin.com/company/sendwithloops/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://loops.so/careers",
+        "description": "Email sending for startups",
+        "stage": "Early",
+        "tags": [
+            "Email"
+        ],
+        "industries": [
+            "B2B",
+            "Marketing"
+        ],
+        "all_locations": "Washington, DC, USA; New York, NY, USA; Remote",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "VacationHomeRents",
+        "slug": "vacationhomerents",
+        "ceo_name": "Allan Jiang",
+        "ceo_linkedin": "https://www.linkedin.com/in/allanjiang/",
+        "company_linkedin": "https://www.linkedin.com/company/vacationhomerents",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/vacationhomerents/jobs (could not find a dedicated career website)",
+        "description": "Kayak.com for vacation rentals",
+        "stage": "Early",
+        "tags": [
+            "Marketplace",
+            "Consumer",
+            "Travel"
+        ],
+        "industries": [
+            "Consumer",
+            "Travel, Leisure and Tourism"
+        ],
+        "all_locations": "Seattle, WA, USA; Remote",
+        "team_size": 4,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "CozmoX AI",
+        "slug": "cozmox-ai",
+        "ceo_name": "Alok Kumar",
+        "ceo_linkedin": "https://www.linkedin.com/in/alokhk/",
+        "company_linkedin": "https://www.linkedin.com/company/cozmox-ai",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/cozmox-ai/jobs (could not find a dedicated career website)",
+        "description": "We help you build AI Employee who can speak, think and do",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Infrastructure",
+            "AI",
+            "Conversational AI"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 11,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Shinkei Systems",
+        "slug": "shinkei-systems",
+        "ceo_name": "Saif Khawaja",
+        "ceo_linkedin": "https://www.linkedin.com/in/saifnk/",
+        "company_linkedin": "https://www.linkedin.com/company/shinkeisystems",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/shinkei-systems/jobs (could not find a dedicated career website)",
+        "description": "Robots for longer-lasting, better-tasting fish at scale.",
+        "stage": "Early",
+        "tags": [
+            "Hardware",
+            "Robotics",
+            "Food Tech",
+            "Agriculture"
+        ],
+        "industries": [
+            "Industrials",
+            "Agriculture"
+        ],
+        "all_locations": "El Segundo, CA, USA",
+        "team_size": 28,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Craniometrix",
+        "slug": "craniometrix",
+        "ceo_name": "Nikhil Patel",
+        "ceo_linkedin": "https://www.linkedin.com/in/nikhil-s-patel/",
+        "company_linkedin": "https://www.linkedin.com/company/craniometrix",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/craniometrix/jobs (could not find a dedicated career website)",
+        "description": "We're building the one-stop-shop care platform for Alzheimer's\u2026",
+        "stage": "Early",
+        "tags": [
+            "Neurotechnology",
+            "Health Tech"
+        ],
+        "industries": [
+            "Healthcare",
+            "Consumer Health and Wellness"
+        ],
+        "all_locations": "New York, NY, USA; San Francisco, CA, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Engage Bio",
+        "slug": "engage-bio",
+        "ceo_name": "Will Olsen",
+        "ceo_linkedin": "https://www.linkedin.com/pub/will-olsen/87/673/785",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/engage-bio/jobs (could not find a dedicated career website)",
+        "description": "mRNA Immunotherapies to Eliminate Cancer",
+        "stage": "Early",
+        "tags": [
+            "Synthetic Biology",
+            "Biotech",
+            "Healthcare",
+            "Therapeutics",
+            "Drug discovery"
+        ],
+        "industries": [
+            "Healthcare",
+            "Therapeutics"
+        ],
+        "all_locations": "Santa Clara, CA, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Actipulse Neuroscience",
+        "slug": "actipulse-neuroscience",
+        "ceo_name": "Adrien Ch\u00e2tillon",
+        "ceo_linkedin": "https://www.linkedin.com/in/adrienchatillon/",
+        "company_linkedin": "https://www.linkedin.com/company/actipulse-international",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/actipulse-neuroscience/jobs (could not find a dedicated career website)",
+        "description": "Bringing non-invasive brain stimulation from the hospital to the home",
+        "stage": "Early",
+        "tags": [
+            "Mental Health Tech",
+            "Neurotechnology",
+            "Medical Devices"
+        ],
+        "industries": [
+            "Healthcare",
+            "Medical Devices"
+        ],
+        "all_locations": "Cambridge, MA, USA; Mexico City, CDMX, Mexico",
+        "team_size": 38,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "PromptLoop",
+        "slug": "promptloop",
+        "ceo_name": "Peter Mangan",
+        "ceo_linkedin": "https://www.linkedin.com/in/peter-m-34b44871/",
+        "company_linkedin": "https://www.linkedin.com/company/89570147",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/promptloop/jobs (could not find a dedicated career website)",
+        "description": "AI agents to build B2B datasets",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Generative AI",
+            "SaaS",
+            "Sales",
+            "Market Research"
+        ],
+        "industries": [
+            "B2B",
+            "Analytics"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Starling",
+        "slug": "starling",
+        "ceo_name": "Drew Hendricks",
+        "ceo_linkedin": "https://www.linkedin.com/in/drew-hendricks/",
+        "company_linkedin": "https://www.linkedin.com/company/starling-medical",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/starling/jobs (could not find a dedicated career website)",
+        "description": "AI enabling digital urine diagnostics in the home",
+        "stage": "Early",
+        "tags": [
+            "Machine Learning",
+            "Medical Devices",
+            "Digital Health"
+        ],
+        "industries": [
+            "Healthcare",
+            "Diagnostics"
+        ],
+        "all_locations": "Houston, TX, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "VantedgeAI",
+        "slug": "vantedgeai",
+        "ceo_name": "Ravi Chachra",
+        "ceo_linkedin": "https://www.linkedin.com/in/rchachra/",
+        "company_linkedin": "https://www.linkedin.com/company/vantedgeai",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/vantedgeai/jobs (could not find a dedicated career website)",
+        "description": "Scaling investing workflows with AI",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Fintech",
+            "SaaS",
+            "Workflow Automation",
+            "Analytics"
+        ],
+        "industries": [
+            "Fintech",
+            "Banking and Exchange"
+        ],
+        "all_locations": "Norwalk, CT, USA",
+        "team_size": 11,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Rosebud Biosciences",
+        "slug": "rosebud-biosciences",
+        "ceo_name": "Kitch Wilson",
+        "ceo_linkedin": "https://www.linkedin.com/in/kitch-wilson-1b915349/",
+        "company_linkedin": "https://www.linkedin.com/company/rosebud-biosciences",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/rosebud-biosciences/jobs (could not find a dedicated career website)",
+        "description": "Growing micro-organs to find new drugs",
+        "stage": "Early",
+        "tags": [
+            "AI-powered Drug Discovery",
+            "Pediatrics",
+            "Biotech"
+        ],
+        "industries": [
+            "Healthcare",
+            "Drug Discovery and Delivery"
+        ],
+        "all_locations": "San Francisco, CA, USA; San Carlos, CA, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Wingback",
+        "slug": "wingback",
+        "ceo_name": "Torben Friehe",
+        "ceo_linkedin": "http://linkedin.com/in/tfriehe",
+        "company_linkedin": "https://www.linkedin.com/company/wingbackapp",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/wingback/jobs (could not find a dedicated career website)",
+        "description": "Wingback provides tools and APIs for SaaS pricing and packaging.",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "SaaS",
+            "API",
+            "Enterprise",
+            "Infrastructure"
+        ],
+        "industries": [
+            "B2B",
+            "Infrastructure"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 12,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Samos Insurance",
+        "slug": "samos-insurance",
+        "ceo_name": "Leon Punambolam",
+        "ceo_linkedin": "https://www.linkedin.com/in/leonpunambolam/",
+        "company_linkedin": "https://www.linkedin.com/company/samosinsure/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/samos-insurance/jobs (could not find a dedicated career website)",
+        "description": "Accidental Death Insurance for Surgery ",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "Consumer Health Services",
+            "Health Tech",
+            "Healthcare",
+            "Insurance"
+        ],
+        "industries": [
+            "Fintech",
+            "Insurance"
+        ],
+        "all_locations": "Kitchener, ON, Canada",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "WeReno",
+        "slug": "wereno",
+        "ceo_name": "Harry Grewal",
+        "ceo_linkedin": "https://www.linkedin.com/in/amrit-r-05278b101/",
+        "company_linkedin": "https://linkedin.com/company/wereno",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/wereno/jobs (could not find a dedicated career website)",
+        "description": "Owner's Rep as a Service for Construction",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Fintech",
+            "Real Estate",
             "Construction",
             "Proptech"
         ],
@@ -2386,54 +1779,627 @@
             "Real Estate and Construction",
             "Construction"
         ],
-        "all_locations": "New York, NY, USA; San Jose, CA, USA",
+        "all_locations": "Toronto, ON, Canada",
+        "team_size": 10,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Trellus",
+        "slug": "trellus",
+        "ceo_name": "Ajinkya Nene",
+        "ceo_linkedin": "https://www.linkedin.com/in/ajinkya-nene-6200b871/",
+        "company_linkedin": "https://www.linkedin.com/company/trytrellus/about/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/trellus/jobs (could not find a dedicated career website)",
+        "description": "Real-time sales coach for SDRs ",
+        "stage": "Early",
+        "tags": [
+            "AI-Enhanced Learning",
+            "Artificial Intelligence",
+            "SaaS",
+            "B2B",
+            "Sales"
+        ],
+        "industries": [
+            "B2B",
+            "Sales"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Hubble Network",
+        "slug": "hubble-network",
+        "ceo_name": "Alex Haro",
+        "ceo_linkedin": "https://www.linkedin.com/in/alexanderharo/",
+        "company_linkedin": "https://www.linkedin.com/company/hubblenetwork/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://hubble.com/careers",
+        "description": "Bluetooth to Space",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "Hard Tech",
+            "Hardware",
+            "IoT",
+            "Satellites"
+        ],
+        "industries": [
+            "Industrials",
+            "Aviation and Space"
+        ],
+        "all_locations": "Seattle, WA, USA",
         "team_size": 50,
         "batch": "Winter 2022"
     },
     {
-        "name": "RefineTrain AI",
-        "slug": "refinetrain-ai",
-        "ceo_name": "Daniel Chua",
-        "ceo_linkedin": "https://www.linkedin.com/in/yee-meng-chua-6845a990/",
-        "company_linkedin": "https://www.linkedin.com/company/refinetrain",
+        "name": "Flightcontrol",
+        "slug": "flightcontrol",
+        "ceo_name": "Brandon Bayer",
+        "ceo_linkedin": "https://www.linkedin.com/in/brandonbayer1/",
+        "company_linkedin": "https://www.linkedin.com/company/flightcontrol",
         "eng": false,
         "remote": false,
-        "job_website": "https://www.ycombinator.com/companies/refinetrain-ai/jobs (could not find a dedicated career website)",
-        "description": "AI agents rewriting & optimising your internal documentation for LLMs",
+        "job_website": "https://www.flightcontrol.dev?ref=bookface/careers",
+        "description": "Deploy apps with utmost reliability, flexibility, and performance",
         "stage": "Early",
         "tags": [
-            "Artificial Intelligence",
+            "Cloud Computing"
+        ],
+        "industries": [
             "B2B",
+            "Infrastructure"
+        ],
+        "all_locations": "Dayton, OH, USA; Remote",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "PolicyFly",
+        "slug": "policyfly",
+        "ceo_name": "Cory Crosland",
+        "ceo_linkedin": "https://www.linkedin.com/in/corycrosland/",
+        "company_linkedin": "https://www.linkedin.com/company/policyfly",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.policyfly.com/careers",
+        "description": "Modernizing Specialty Insurance",
+        "stage": "Early",
+        "tags": [
+            "Marketplace",
+            "Insurance"
+        ],
+        "industries": [
+            "Fintech",
+            "Insurance"
+        ],
+        "all_locations": "New York, NY, USA; Remote",
+        "team_size": 15,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Sieve",
+        "slug": "sieve",
+        "ceo_name": "Mokshith Voodarla",
+        "ceo_linkedin": "https://www.linkedin.com/in/mokshith-voodarla/",
+        "company_linkedin": "https://linkedin.com/company/sievedata",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://sievedata.com//jobs",
+        "description": "Video AI for Developers",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "Video",
             "AI"
         ],
         "industries": [
             "B2B",
-            "Engineering, Product and Design"
+            "Infrastructure"
         ],
-        "all_locations": "San Francisco, CA, USA; Remote",
-        "team_size": 4,
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 12,
         "batch": "Winter 2022"
     },
     {
-        "name": "Mintlify",
-        "slug": "mintlify",
-        "ceo_name": "Han Wang",
-        "ceo_linkedin": "https://www.linkedin.com/in/han-y-wang/",
-        "company_linkedin": "https://www.linkedin.com/company/mintlify",
-        "eng": true,
+        "name": "WorldQL",
+        "slug": "worldql",
+        "ceo_name": "Jackson Roberts",
+        "ceo_linkedin": "https://www.linkedin.com/in/jackson-roberts/",
+        "company_linkedin": null,
+        "eng": false,
         "remote": false,
-        "job_website": "https://mintlify.com/careers",
-        "description": "The next generation of documentation",
+        "job_website": "https://www.ycombinator.com/companies/worldql/jobs (could not find a dedicated career website)",
+        "description": "Building Dreamlab.gg \u2013 AI-Native Multiplayer Game Engine for the Web",
         "stage": "Early",
         "tags": [
-            "Developer Tools"
+            "Developer Tools",
+            "Gaming"
+        ],
+        "industries": [
+            "Consumer",
+            "Gaming"
+        ],
+        "all_locations": "Denver, CO, USA; Remote",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Railbird",
+        "slug": "railbird",
+        "ceo_name": "Miles Saffran",
+        "ceo_linkedin": "https://www.linkedin.com/in/miles-saffran-00468810b/",
+        "company_linkedin": "https://www.linkedin.com/company/railbird/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/railbird/jobs (could not find a dedicated career website)",
+        "description": "A futures market for events.",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "Marketplace"
+        ],
+        "industries": [
+            "Fintech"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 8,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "LifeAt",
+        "slug": "lifeat",
+        "ceo_name": "Devin Ajimine",
+        "ceo_linkedin": "https://www.linkedin.com/in/devinajimine/",
+        "company_linkedin": "https://www.linkedin.com/company/lifeat",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://lifeat.com/careers",
+        "description": "One tool to supercharge your productivity.",
+        "stage": "Early",
+        "tags": [
+            "Consumer",
+            "Productivity"
+        ],
+        "industries": [
+            "Consumer"
+        ],
+        "all_locations": "Seattle, WA, USA",
+        "team_size": 6,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "TYBR Health",
+        "slug": "tybr-health",
+        "ceo_name": "Tim Keane",
+        "ceo_linkedin": "https://www.linkedin.com/in/timjkeanejr",
+        "company_linkedin": "https://www.linkedin.com/company/tybr-health/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/tybr-health/jobs (could not find a dedicated career website)",
+        "description": "Natural hydrogel to keep internal organs scar-free after surgery",
+        "stage": "Early",
+        "tags": [
+            "B2B",
+            "Medical Devices"
+        ],
+        "industries": [
+            "Healthcare",
+            "Medical Devices"
+        ],
+        "all_locations": "Houston, TX, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Scout",
+        "slug": "scout-2",
+        "ceo_name": "Alex Jiao",
+        "ceo_linkedin": "https://www.linkedin.com/in/alexjiao/",
+        "company_linkedin": "https://www.linkedin.com/company/uh-oh-labs/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/scout-2/jobs (could not find a dedicated career website)",
+        "description": "The smart testing platform that unlocks digital health at home.",
+        "stage": "Early",
+        "tags": [
+            "Consumer Health Services",
+            "COVID-19",
+            "Health Tech",
+            "Diagnostics",
+            "Consumer Products"
+        ],
+        "industries": [
+            "Healthcare",
+            "Diagnostics"
+        ],
+        "all_locations": "Santa Clara, CA, USA",
+        "team_size": 12,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Moots AI",
+        "slug": "moots-ai",
+        "ceo_name": "Tonj\u00e9 Bakang Tonje",
+        "ceo_linkedin": "http://fr.linkedin.com/in/tonjebakangtonje",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/moots-ai/jobs (could not find a dedicated career website)",
+        "description": "Scan badges at business events, build context, and follow up with AI",
+        "stage": "Early",
+        "tags": [
+            "Collaboration",
+            "Social Network",
+            "CRM",
+            "AI",
+            "AI Assistant"
+        ],
+        "industries": [
+            "Consumer",
+            "Social"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 3,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Strac",
+        "slug": "strac",
+        "ceo_name": "Aatish Mandelecha",
+        "ceo_linkedin": "https://www.linkedin.com/in/aatishmandelecha/",
+        "company_linkedin": "https://www.linkedin.com/company/securewithstrac/",
+        "eng": false,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/strac/jobs (could not find a dedicated career website)",
+        "description": "Data Discovery, DLP, DSPM for SaaS, Cloud, Gen AI & Endpoints",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence",
+            "Generative AI",
+            "SaaS",
+            "Security",
+            "Enterprise"
         ],
         "industries": [
             "B2B",
-            "Productivity"
+            "Security"
+        ],
+        "all_locations": "Bellevue, WA, USA; Remote",
+        "team_size": 8,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Agave",
+        "slug": "agave",
+        "ceo_name": "Tom Reno",
+        "ceo_linkedin": "https://www.linkedin.com/in/tomreno/",
+        "company_linkedin": "https://www.linkedin.com/company/agave-api/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.agaveapi.com/careers",
+        "description": "Data infrastructure for Construction finance",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "Construction",
+            "B2B",
+            "Proptech"
+        ],
+        "industries": [
+            "B2B"
         ],
         "all_locations": "San Francisco, CA, USA",
-        "team_size": 28,
+        "team_size": 20,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Redbird",
+        "slug": "redbird",
+        "ceo_name": "Erin Tavgac",
+        "ceo_linkedin": "https://www.linkedin.com/in/erintavgac/",
+        "company_linkedin": "https://www.linkedin.com/company/redbird-io",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.redbird.io/careers",
+        "description": "AI-powered Analytics Platform",
+        "stage": "Early",
+        "tags": [
+            "Analytics"
+        ],
+        "industries": [
+            "B2B",
+            "Analytics"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": null,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "AstroForge",
+        "slug": "astroforge",
+        "ceo_name": "Matt Gialich",
+        "ceo_linkedin": "https://www.linkedin.com/in/matthew-gialich/",
+        "company_linkedin": null,
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.astroforge.io//careers",
+        "description": "We Mine Asteroids",
+        "stage": "Early",
+        "tags": [
+            "Hard Tech",
+            "Robotics",
+            "Space Exploration",
+            "Satellites"
+        ],
+        "industries": [
+            "Industrials",
+            "Manufacturing and Robotics"
+        ],
+        "all_locations": "Huntington Beach, CA, USA",
+        "team_size": 10,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "GrowthBook",
+        "slug": "growthbook",
+        "ceo_name": "Graham McNicoll",
+        "ceo_linkedin": "https://www.linkedin.com/in/grahammcnicoll/",
+        "company_linkedin": "https://www.linkedin.com/company/growthbook/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.growthbook.io/careers",
+        "description": "Open source feature flagging and A/B testing",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "B2B",
+            "Analytics",
+            "Open Source"
+        ],
+        "industries": [
+            "B2B",
+            "Analytics"
+        ],
+        "all_locations": "Palo Alto, CA, USA; Remote",
+        "team_size": 20,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Mederva Health",
+        "slug": "mederva-health",
+        "ceo_name": "Sabih Mir",
+        "ceo_linkedin": "http://linkedin.com/in/sabihmir",
+        "company_linkedin": "https://www.linkedin.com/company/mederva-health/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/mederva-health/jobs (could not find a dedicated career website)",
+        "description": "Prevent disease before it starts.",
+        "stage": "Early",
+        "tags": [
+            "Consumer Health Services",
+            "Telehealth",
+            "Digital Health",
+            "Healthcare"
+        ],
+        "industries": [
+            "Healthcare"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 13,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Arc",
+        "slug": "arc-2",
+        "ceo_name": "Nick Lombardo",
+        "ceo_linkedin": "https://www.linkedin.com/in/nicholas-m-lombardo/",
+        "company_linkedin": "https://www.linkedin.com/company/arc-tech-inc",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.joinarc.com//careers",
+        "description": "Banking & Funding for Startups",
+        "stage": "Early",
+        "tags": [
+            "Fintech",
+            "SaaS",
+            "B2B"
+        ],
+        "industries": [
+            "Fintech"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 40,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Uberduck",
+        "slug": "uberduck",
+        "ceo_name": "Zach Ocean",
+        "ceo_linkedin": "https://www.linkedin.com/in/zachwe/",
+        "company_linkedin": "https://www.linkedin.com/company/uberduck",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/uberduck/jobs (could not find a dedicated career website)",
+        "description": "Fast, professional content creation with AI audio, image, and video.",
+        "stage": "Early",
+        "tags": [],
+        "industries": [
+            "B2B",
+            "Marketing"
+        ],
+        "all_locations": "Seattle, WA, USA",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Spot Health",
+        "slug": "spot-health",
+        "ceo_name": "Andrew Jajack",
+        "ceo_linkedin": "https://www.linkedin.com/in/ajajack/",
+        "company_linkedin": "https://www.linkedin.com/company/spotkits/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/spot-health/jobs (could not find a dedicated career website)",
+        "description": "At-home diagnostics as a service",
+        "stage": "Early",
+        "tags": [
+            "Telehealth",
+            "Healthcare",
+            "Diagnostics"
+        ],
+        "industries": [
+            "Healthcare",
+            "Diagnostics"
+        ],
+        "all_locations": "Cincinnati, OH, USA",
+        "team_size": 9,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Joinarena",
+        "slug": "joinarena",
+        "ceo_name": "Kaushik Tiwari",
+        "ceo_linkedin": "https://www.linkedin.com/in/kaushikktiwari",
+        "company_linkedin": null,
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/joinarena/jobs (could not find a dedicated career website)",
+        "description": "AI interviewer",
+        "stage": "Early",
+        "tags": [
+            "Artificial Intelligence"
+        ],
+        "industries": [
+            "B2B"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 5,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Optery",
+        "slug": "optery",
+        "ceo_name": "Lawrence Gentilello",
+        "ceo_linkedin": "https://www.linkedin.com/in/gentilello",
+        "company_linkedin": "https://www.linkedin.com/company/optery/",
+        "eng": true,
+        "remote": true,
+        "job_website": "https://www.optery.com/careers",
+        "description": "Opt out software that removes your private info from the internet",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "Consumer",
+            "Security",
+            "Privacy",
+            "Enterprise Software"
+        ],
+        "industries": [
+            "B2B",
+            "Security"
+        ],
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "team_size": 55,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Wyvern",
+        "slug": "wyvern",
+        "ceo_name": "Chris Robson",
+        "ceo_linkedin": "https://www.linkedin.com/in/christopherrjrobson/",
+        "company_linkedin": "https://www.linkedin.com/company/wyvern-space/mycompany/?viewAsMember=true",
+        "eng": false,
+        "remote": false,
+        "job_website": "http://www.wyvern.space/careers",
+        "description": "High-res hyperspectral pictures of Earth from space",
+        "stage": "Early",
+        "tags": [
+            "Hard Tech",
+            "Satellites",
+            "Climate"
+        ],
+        "industries": [
+            "Industrials",
+            "Aviation and Space"
+        ],
+        "all_locations": "Edmonton, AB, Canada",
+        "team_size": 26,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Andi",
+        "slug": "andi",
+        "ceo_name": "Angela Hoover",
+        "ceo_linkedin": "https://www.linkedin.com/in/angela-hoover/",
+        "company_linkedin": "https://www.linkedin.com/company/andisearch/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://andisearch.com/careers",
+        "description": "Search for the next generation using generative AI",
+        "stage": "Early",
+        "tags": [],
+        "industries": [
+            "Consumer",
+            "Content"
+        ],
+        "all_locations": "San Francisco, CA, USA; Miami, FL, USA",
+        "team_size": 2,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Instalab",
+        "slug": "instalab",
+        "ceo_name": "Adora Cheung",
+        "ceo_linkedin": "https://www.linkedin.com/in/adoracheung/",
+        "company_linkedin": "https://www.linkedin.com/company/instalab-inc",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.ycombinator.com/companies/instalab/jobs (could not find a dedicated career website)",
+        "description": "Proactive Testing and Treatments",
+        "stage": "Early",
+        "tags": [
+            "Consumer Health Services",
+            "Health Tech",
+            "Telemedicine",
+            "Health & Wellness",
+            "AI"
+        ],
+        "industries": [
+            "Healthcare",
+            "Consumer Health and Wellness"
+        ],
+        "all_locations": "New York, NY, USA",
+        "team_size": 0,
+        "batch": "Winter 2022"
+    },
+    {
+        "name": "Serif Health",
+        "slug": "serif-health",
+        "ceo_name": "Rafiq Ahmed",
+        "ceo_linkedin": "https://www.linkedin.com/in/rfiqahmed/",
+        "company_linkedin": "https://www.linkedin.com/company/serif-health/",
+        "eng": false,
+        "remote": true,
+        "job_website": "https://www.ycombinator.com/companies/serif-health/jobs (could not find a dedicated career website)",
+        "description": "Healthcare Price Transparency APIs and Data Products",
+        "stage": "Early",
+        "tags": [
+            "Health Tech",
+            "Analytics",
+            "Healthcare",
+            "API",
+            "AI"
+        ],
+        "industries": [
+            "Healthcare",
+            "Healthcare Services"
+        ],
+        "all_locations": "Los Angeles, CA, USA; Remote",
+        "team_size": 13,
         "batch": "Winter 2022"
     }
 ]

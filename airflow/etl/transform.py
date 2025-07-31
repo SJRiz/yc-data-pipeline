@@ -1,42 +1,54 @@
-import json, csv
+import json
+import csv
 import pandas as pd
 import os
 
 def transform_yc_data():
-
+    # Load raw JSON
     with open("./data/raw/yc_raw.json", "r", encoding="utf-8") as f:
         raw = json.load(f)
-
     df = pd.DataFrame(raw)
 
-    # Safely lower-case list items
-    def clean_list(L):
+    # Clean up list‐columns and format them as Postgres arrays
+    def clean_list_to_pg_array(L):
         if isinstance(L, list):
-            return [str(t).lower() for t in L if isinstance(t, str)]
-        return []
+            # lower‐case, strip commas/spaces
+            items = [str(t).strip().lower() for t in L if isinstance(t, str)]
 
-    df['tags'] = df['tags'].apply(clean_list)
-    df['industries'] = df['industries'].apply(clean_list)
+            # join with commas, wrap in {}
+            return "{" + ",".join(items) + "}"
+        return "{}"
 
-    # Safely parse team_size
+    df['tags']       = df['tags'].apply(clean_list_to_pg_array)
+    df['industries'] = df['industries'].apply(clean_list_to_pg_array)
+
+    # Clean team_size
     def clean_team_size(t):
         try:
-            if pd.isnull(t):
-                return 0
-            if isinstance(t, str):
-                t = t.replace(",", "").strip()
-            return int(float(t))  # Handles both "1000" and 1000.0
+            if pd.isnull(t): return 0
+            ts = str(t).replace(",", "").strip()
+            return int(float(ts))
         except:
             return 0
-
     df['team_size'] = df['team_size'].apply(clean_team_size)
 
-    # Drop duplicates on name
+    # Convert booleans into lowercase literal strings
+    df['eng']    = df['eng'].astype(bool).map(lambda b: 'true' if b else 'false')
+    df['remote'] = df['remote'].astype(bool).map(lambda b: 'true' if b else 'false')
+
+    # Drop duplicates and ensure processed folder exists
     df.drop_duplicates(subset='name', inplace=True)
-
-    # Save to CSV
     os.makedirs("./data/processed", exist_ok=True)
-    df.to_csv("./data/processed/yc_clean.csv", index=False, quotechar='"', quoting=csv.QUOTE_ALL)
 
-if __name__ == "__main__":
-    transform_yc_data()
+    pg_cols = [
+        "name","slug","ceo_name","ceo_linkedin","company_linkedin",
+        "eng","remote","job_website","description","stage",
+        "tags","industries","all_locations","team_size","batch"
+    ]
+    df.to_csv(
+        "./data/processed/yc_clean.csv",
+        columns=pg_cols,
+        index=False,
+        quotechar='"',
+        quoting=csv.QUOTE_ALL
+    )
