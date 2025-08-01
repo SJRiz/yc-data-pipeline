@@ -94,6 +94,19 @@ services:
       - initdb
     ports:
       - "8501:8501"
+
+  # Ollama
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    privileged: true
+    entrypoint: >
+      bash -c "ollama serve & sleep 2 && ollama pull gemma:2b-instruct-q4_K_M && wait"
+
   # Airflow stuff
   postgres:
     image: postgres:13
@@ -206,7 +219,8 @@ services:
         echo
         ls -la /opt/airflow/{logs,dags,plugins,config}
         /opt/airflow/scripts/create_connections.sh
-
+    depends_on:
+      - ollama
     # yamllint enable rule:line-length
     environment:
       <<: *airflow-common-env
@@ -345,3 +359,4 @@ services:
 volumes:
   postgres_data:
   postgres-db-volume:
+  ollama_models:

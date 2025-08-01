@@ -4,6 +4,7 @@ import logging
 from typing import Iterator, Any
 from bs4 import BeautifulSoup
 
+from etl.utils.llm_search import get_funding
 from libs.db.db import engine
 from libs.app_config.config import RETRY_DELAY, USER_AGENT, X_ALGOLIA_API_KEY
 
@@ -178,7 +179,8 @@ def fetch_yc_companies() -> Iterator[Any]:
                         "industries": industries,
                         "all_locations": all_locations,
                         "team_size": team_size,
-                        "batch": batch
+                        "batch": batch,
+                        "funding": get_funding(name)
                     }
 
                 else:

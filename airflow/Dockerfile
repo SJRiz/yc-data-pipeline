@@ -26,4 +26,4 @@ RUN pip install --no-cache-dir \
     "SQLAlchemy>=1.4,<1.5" \
     python-dotenv \
     psycopg2-binary \
-    'apache-airflow[google]'
+    ddgs

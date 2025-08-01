@@ -6,7 +6,7 @@ def load_to_postgres():
     COPY startups(
       name, slug, ceo_name, ceo_linkedin, company_linkedin,
       eng, remote, job_website, description, stage,
-      tags, industries, all_locations, team_size, batch
+      tags, industries, all_locations, team_size, batch, funding
     )
     FROM STDIN WITH CSV HEADER;
     """

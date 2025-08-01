@@ -43,7 +43,7 @@ def transform_yc_data():
     pg_cols = [
         "name","slug","ceo_name","ceo_linkedin","company_linkedin",
         "eng","remote","job_website","description","stage",
-        "tags","industries","all_locations","team_size","batch"
+        "tags","industries","all_locations","team_size","batch","funding"
     ]
     df.to_csv(
         "./data/processed/yc_clean.csv",
