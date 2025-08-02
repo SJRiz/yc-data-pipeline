@@ -51,25 +51,10 @@ services:
     container_name: yc-postgres
     env_file: .env
     volumes:
+      - ./libs/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-
-  initdb:
-    image: postgres:15
-    depends_on:
-      - db
-    env_file: .env
-    volumes:
-      - ./libs/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
-    entrypoint:
-      [
-        "sh", "-c",
-        "until pg_isready -h db -p 5432; do sleep 1; done && \
-         PGPASSWORD=$POSTGRES_PASSWORD psql -h db -U $POSTGRES_USER -d $POSTGRES_DB \
-           -f /docker-entrypoint-initdb.d/schema.sql"
-      ]
-    restart: "no"
 
   fastapi:
     build:
@@ -103,9 +88,16 @@ services:
       - "11434:11434"
     volumes:
       - ollama_models:/root/.ollama
+    env_file:
+      - .env
     privileged: true
     entrypoint: >
-      bash -c "ollama serve & sleep 2 && ollama pull gemma:2b-instruct-q4_K_M && wait"
+      bash -c "
+        ollama serve &
+        sleep 2 &&
+        ollama pull ${LLM_MODEL:-gemma:2b-instruct-q4_K_M} &&
+        wait
+      "
 
   # Airflow stuff
   postgres:

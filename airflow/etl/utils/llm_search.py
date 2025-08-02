@@ -1,7 +1,7 @@
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
-from libs.app_config.config import USE_OLLAMA_LOCALLY
+from libs.app_config.config import USE_OLLAMA_LOCALLY, LLM_MODEL
 from ddgs import DDGS
 
 # Search with duckduckgo and extract 20 snippets
@@ -16,13 +16,13 @@ def get_funding_snippets(company_name: str) -> str:
 
     return "\n".join(snippets)
 
-# Gets a response from Mistral by feeding the snippet texts
+# Gets a response from specified model by feeding the snippet texts
 def get_llm_response(company_name: str, snippets_text: str) -> str:
-    url = f"http://{"ollama" if not USE_OLLAMA_LOCALLY else "host.docker.internal"}:11434/api/generate"
+    url = f"http://{'ollama' if not USE_OLLAMA_LOCALLY else 'host.docker.internal'}:11434/api/generate"
     response = requests.post(
-        'http://ollama:11434/api/generate',
+        url,
         json={
-            'model': 'gemma:2b-instruct-q4_K_M',
+            'model': str(LLM_MODEL),
             'prompt': f"""
             You are an information extractor. Your job is to extract funding data for a company.
 
