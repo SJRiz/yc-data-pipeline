@@ -1,6 +1,7 @@
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
+from libs.app_config.config import USE_OLLAMA_LOCALLY
 from ddgs import DDGS
 
 # Search with duckduckgo and extract 20 snippets
@@ -17,6 +18,7 @@ def get_funding_snippets(company_name: str) -> str:
 
 # Gets a response from Mistral by feeding the snippet texts
 def get_llm_response(company_name: str, snippets_text: str) -> str:
+    url = f"http://{"ollama" if not USE_OLLAMA_LOCALLY else "host.docker.internal"}:11434/api/generate"
     response = requests.post(
         'http://ollama:11434/api/generate',
         json={
