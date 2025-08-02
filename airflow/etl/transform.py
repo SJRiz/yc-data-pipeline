@@ -36,7 +36,7 @@ def transform_yc_data():
     # Convert funding == 0 to None
     def clean_funding(val):
         try:
-            val = float(str(val).replace(',', '').strip())
+            val = int(str(val).replace(',', '').strip())
             return None if val == 0 else val
         except:
             return None
@@ -56,6 +56,7 @@ def transform_yc_data():
         "eng","remote","job_website","description","stage",
         "tags","industries","all_locations","team_size","batch","funding"
     ]
+    
     df.to_csv(
         "./data/processed/yc_clean.csv",
         columns=pg_cols,
