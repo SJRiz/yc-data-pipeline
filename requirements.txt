@@ -8,3 +8,4 @@ SQLAlchemy==1.4.54
 streamlit==1.47.1
 uvicorn==0.30.1
 pydantic==2.7.1
+psycopg2-binary==2.9.9

@@ -30,7 +30,18 @@ def transform_yc_data():
             return int(float(ts))
         except:
             return 0
+        
     df['team_size'] = df['team_size'].apply(clean_team_size)
+
+    # Convert funding == 0 to None
+    def clean_funding(val):
+        try:
+            val = float(str(val).replace(',', '').strip())
+            return None if val == 0 else val
+        except:
+            return None
+        
+    df['funding'] = df['funding'].apply(clean_funding)
 
     # Convert booleans into lowercase literal strings
     df['eng']    = df['eng'].astype(bool).map(lambda b: 'true' if b else 'false')
@@ -50,5 +61,6 @@ def transform_yc_data():
         columns=pg_cols,
         index=False,
         quotechar='"',
-        quoting=csv.QUOTE_ALL
+        quoting=csv.QUOTE_ALL,
+        na_rep=''
     )

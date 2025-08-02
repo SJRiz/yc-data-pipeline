@@ -13,9 +13,9 @@ def get_db():
     finally:
         db.close()
 
-# Api route to get all startups
+# Api route to get startups with specified params
 @app.get("/startups/")
-def read_startups(tag: str = None, limit: int = 20, db: Session = Depends(get_db)):
+def read_startups(tag: str = None, limit: int = 1000, db: Session = Depends(get_db)):
     if tag:
         query = db.execute(
             "SELECT * FROM startups WHERE tags @> :tag LIMIT :limit",

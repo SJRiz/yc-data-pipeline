@@ -1,7 +1,8 @@
 import requests
 import json
+import time
 from concurrent.futures import ThreadPoolExecutor
-from libs.app_config.config import OLLAMA_URL, LLM_MODEL
+from libs.app_config.config import OLLAMA_URL, LLM_MODEL, RETRY_DELAY
 from ddgs import DDGS
 
 # Search with duckduckgo and extract 20 snippets
@@ -12,7 +13,8 @@ def get_funding_snippets(company_name: str) -> str:
     with DDGS() as ddg:
         for r in ddg.text(query, region="us-en",
                         safesearch="off", max_results=20):
-            snippets.append("( website title: " + r["title"] + " | " + "snippet: " + r["body"] + " )")
+            if company_name.lower().strip() in r["body"].lower():
+                snippets.append("( website title: " + r["title"] + " | " + "snippet: " + r["body"] + " )")
 
     return "\n".join(snippets)
 
@@ -135,4 +137,5 @@ def get_funding(company_name: str) -> int:
         results = list(executor.map(lambda _: one_sample(company_name), range(3)))
     
     results.sort()
+    time.sleep(RETRY_DELAY)
     return results[1]  # median
