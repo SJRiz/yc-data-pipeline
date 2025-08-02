@@ -22,7 +22,7 @@ def get_llm_response(company_name: str, snippets_text: str) -> str:
     response = requests.post(
         url,
         json={
-            'model': 'llama3',
+            'model': LLM_MODEL,
             'prompt': f"""
             You are an information extractor. Your job is to extract funding data for a company.
 
