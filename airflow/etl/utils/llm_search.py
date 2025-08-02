@@ -1,7 +1,7 @@
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
-from libs.app_config.config import USE_OLLAMA_LOCALLY, LLM_MODEL
+from libs.app_config.config import OLLAMA_URL, LLM_MODEL
 from ddgs import DDGS
 
 # Search with duckduckgo and extract 20 snippets
@@ -18,11 +18,11 @@ def get_funding_snippets(company_name: str) -> str:
 
 # Gets a response from specified model by feeding the snippet texts
 def get_llm_response(company_name: str, snippets_text: str) -> str:
-    url = f"http://{'ollama' if not USE_OLLAMA_LOCALLY else 'host.docker.internal'}:11434/api/generate"
+    url = OLLAMA_URL
     response = requests.post(
         url,
         json={
-            'model': str(LLM_MODEL),
+            'model': 'llama3',
             'prompt': f"""
             You are an information extractor. Your job is to extract funding data for a company.
 
@@ -37,7 +37,7 @@ def get_llm_response(company_name: str, snippets_text: str) -> str:
             - "Received 40 million dollars in Series A" → 40000000
             - "No funding info found" → 0
 
-            Now analyze the following data snippets, each enclosed in brackets:
+            Now analyze the following data snippets, each enclosed in brackets. Prioritize information from well-known titles first:
 
             {snippets_text}
             """,

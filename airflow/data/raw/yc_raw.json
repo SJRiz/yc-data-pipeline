@@ -22,7 +22,7 @@
         "all_locations": "New York, NY, USA",
         "team_size": 70,
         "batch": "Winter 2022",
-        "funding": 30000000
+        "funding": 3000000
     },
     {
         "name": "WhiteLab Genomics",
@@ -73,7 +73,7 @@
         "all_locations": "Los Angeles, CA, USA; Remote",
         "team_size": 11,
         "batch": "Winter 2022",
-        "funding": 8000000
+        "funding": 12000000
     },
     {
         "name": "Reality Defender",
@@ -100,7 +100,7 @@
         "all_locations": "New York, NY, USA",
         "team_size": 54,
         "batch": "Winter 2022",
-        "funding": 15000000
+        "funding": 52400000
     },
     {
         "name": "Remi",
@@ -127,5 +127,132 @@
         "team_size": 140,
         "batch": "Winter 2022",
         "funding": 21000000
+    },
+    {
+        "name": "Onboard.io",
+        "slug": "onboard-io",
+        "ceo_name": "Jeffrey D. Epstein",
+        "ceo_linkedin": "https://www.linkedin.com/in/epsteinjeffrey",
+        "company_linkedin": "https://www.linkedin.com/company/onboardio2/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://onboard.io/careers",
+        "description": "Manage & automate customer onboarding and implementation",
+        "stage": "Early",
+        "tags": [
+            "SaaS",
+            "B2B",
+            "Productivity",
+            "Customer Success",
+            "Collaboration"
+        ],
+        "industries": [
+            "B2B",
+            "Productivity"
+        ],
+        "all_locations": "Detroit, MI, USA; Remote",
+        "team_size": 6,
+        "batch": "Winter 2022",
+        "funding": 7500000
+    },
+    {
+        "name": "Seis",
+        "slug": "seis",
+        "ceo_name": "Trevor McKendrick",
+        "ceo_linkedin": "https://www.linkedin.com/in/trevormckendrick",
+        "company_linkedin": "https://www.linkedin.com/company/seis-card/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://www.seis.com/careers",
+        "description": "Banking 100% in Spanish for the 44 million US Spanish speakers",
+        "stage": "Growth",
+        "tags": [
+            "Fintech",
+            "Consumer Finance",
+            "Neobank"
+        ],
+        "industries": [
+            "Fintech",
+            "Consumer Finance"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 17,
+        "batch": "Winter 2022",
+        "funding": 12000000
+    },
+    {
+        "name": "Eventual",
+        "slug": "eventual",
+        "ceo_name": "Sammy Sidhu",
+        "ceo_linkedin": "https://www.linkedin.com/in/sammy-sidhu/",
+        "company_linkedin": "https://www.linkedin.com/showcase/daftengine/",
+        "eng": true,
+        "remote": false,
+        "job_website": "https://www.daft.ai//careers",
+        "description": "Building the AI data engine for any modality and scale",
+        "stage": "Early",
+        "tags": [
+            "Computer Vision"
+        ],
+        "industries": [
+            "B2B",
+            "Infrastructure"
+        ],
+        "all_locations": "San Francisco, CA, USA",
+        "team_size": 18,
+        "batch": "Winter 2022",
+        "funding": 30000000
+    },
+    {
+        "name": "Phoenix Hydrogen",
+        "slug": "phoenix-hydrogen",
+        "ceo_name": "Shawn Drost",
+        "ceo_linkedin": "https://www.linkedin.com/in/shawndrost/",
+        "company_linkedin": "https://www.linkedin.com/company/72630957/",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://phoenixhydrogen.com//careers",
+        "description": "First commodity marketplace for hydrogen.",
+        "stage": "Early",
+        "tags": [
+            "Energy Storage",
+            "Hydrogen Energy",
+            "Marketplace",
+            "Climate",
+            "ClimateTech"
+        ],
+        "industries": [
+            "Industrials",
+            "Energy"
+        ],
+        "all_locations": "Berkeley, CA, USA; Remote",
+        "team_size": 2,
+        "batch": "Winter 2022",
+        "funding": 12500000
+    },
+    {
+        "name": "Karate Labs",
+        "slug": "karate-labs",
+        "ceo_name": "Kapil Bakshi",
+        "ceo_linkedin": "https://www.linkedin.com/in/bakshikapil/",
+        "company_linkedin": "https://linkedin.com/company/karatelabs",
+        "eng": false,
+        "remote": false,
+        "job_website": "https://karatelabs.io/careers",
+        "description": "Open-source API & UI test automation ",
+        "stage": "Early",
+        "tags": [
+            "Developer Tools",
+            "SaaS",
+            "API"
+        ],
+        "industries": [
+            "B2B",
+            "Engineering, Product and Design"
+        ],
+        "all_locations": "Wilmington, DE, USA; Remote",
+        "team_size": 2,
+        "batch": "Winter 2022",
+        "funding": 12500000
     }
 ]
