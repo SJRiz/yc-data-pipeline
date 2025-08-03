@@ -36,7 +36,7 @@ st.subheader("AI Summary Assistant")
 user_query = st.text_input("Ask something about these startups (e.g., 'Who raised the most funding?')")
 
 if user_query and not df.empty:
-    context_df = df[["Company", "tags","industries", "team_size", "funding"]]
+    context_df = df[["Company", "CEO", "locations", "tags","industries", "team_size", "funding"]]
 
     prompt = f"""
     You are an AI summary assistant on a website. Your job is to answer questions from the client using ONLY the CSV provided.
