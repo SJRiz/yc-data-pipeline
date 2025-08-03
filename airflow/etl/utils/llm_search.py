@@ -84,10 +84,6 @@ def clean_number(string: str="0") -> float:
     if last < len(string) and string[last] == "m":
         return float((string[idx:last]).replace(",", "")) * (10**6)
     
-    # Check billion (you never know one day)
-    elif last < len(string) and string[last] == "b":
-        return float((string[idx:last]).replace(",", "")) * (10**9)
-    
     # Evaluate as usual after checking all possible cases
     return float((string[idx:last]).replace(",", ""))
 
@@ -114,13 +110,8 @@ def clean_response(resp: str="0") -> int:
             if num and num < 1000:
                 largest = max(largest, num*(10**6))
         
-        elif words[i] in {"b", "billion"}:
-            num = clean_number(words[i-1])
-            if num and num < 1000:
-                largest = max(largest, num*(10**9))
-        
-    # if we somehow get a huge number then ignore it
-    return int(largest) if 10000 < int(largest) < 10**11 else 0
+    # if we somehow get a huge number then ignore it (we will make the cutoff 100 million)
+    return int(largest) if 10000 < int(largest) < 10**8 else 0
 
 def one_sample(company_name: str) -> int:
     try:
