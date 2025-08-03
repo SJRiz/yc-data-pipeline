@@ -6,8 +6,8 @@ st.title("YC Startups Explorer")
 
 # Filters for tag, minimum and max funding
 tag = st.sidebar.text_input("Filter by tag")
-min_funding = st.sidebar.number_input("Min Funding ($M)", value=0)
-max_funding = st.sidebar.number_input("Max Funding ($M)", value=1e12)
+min_funding = st.sidebar.number_input("Min Funding ($)", value=0)
+max_funding = st.sidebar.number_input("Max Funding ($)", value=1e12)
 limit = st.sidebar.number_input("Number of Companies", value=100)
 
 params = {"tag": tag} if tag else {}
@@ -49,7 +49,10 @@ if user_query and not df.empty:
         url=OLLAMA_URL,
         json={
             "model": LLM_MODEL,
-            "prompt": prompt
+            "prompt": prompt,
+            "options": {
+                "temperature": 0.1
+            }
             },
         timeout=200,
         stream=True
