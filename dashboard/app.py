@@ -6,7 +6,7 @@ st.title("YC Startups Explorer")
 
 # Filters for tag, minimum and max funding
 tag = st.sidebar.text_input("Filter by tag")
-min_funding = st.sidebar.number_input("Min Funding ($M)", value=0.0)
+min_funding = st.sidebar.number_input("Min Funding ($M)", value=0)
 max_funding = st.sidebar.number_input("Max Funding ($M)", value=9999999999)
 
 params = {"tag": tag} if tag else {}
@@ -34,10 +34,10 @@ st.subheader("AI Summary Assistant")
 user_query = st.text_input("Ask something about these startups (e.g., 'Who raised the most funding?')")
 
 if user_query and not df.empty:
-    context_df = df[["name", "industry", "team_size", "funding"]].head(100)  # avoid sending too much
+    context_df = df[["name", "tags","industries", "team_size", "funding"]].head(100)  # avoid sending too much
 
     prompt = f"""
-    Answer the question below using this JSON data on YC startups:
+    Answer the question below using this JSON data on YC startups. Keep your answer short and concise. Do not mention JSON:
     {context_df.to_json(orient='records', lines=False, force_ascii=False)}
 
     Question: {user_query}

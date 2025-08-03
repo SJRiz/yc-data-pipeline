@@ -20,7 +20,7 @@ def read_startups(
     tag: Optional[str] = None,
     min_funding: int = Query(0, ge=0),
     max_funding: int = Query(1e12, ge=0),
-    limit: int = Query(1000, gt=0),
+    limit: int = Query(100, gt=0),
     db: Session = Depends(get_db),
 ):
     sql = "SELECT * FROM startups WHERE funding BETWEEN :min_funding AND :max_funding"
