@@ -39,10 +39,12 @@ if user_query and not df.empty:
     context_df = df[["Company", "tags","industries", "team_size", "funding"]]
 
     prompt = f"""
-    Answer the question below using this JSON data on YC startups. Keep your answer short and concise. Do not mention JSON:
-    {context_df.to_json(orient='records', lines=False, force_ascii=False)}
+    You are an AI summary assistant on a website. Your job is to answer questions from the client using ONLY the CSV provided.
+    Answer the question below using this CSV data on YC startups. Keep your answer short and concise:
+    {context_df.to_csv(index=False)}
 
-    Question: {user_query}
+    Client's Question: {user_query}
+    
     Answer:
     """
     response = requests.post(
