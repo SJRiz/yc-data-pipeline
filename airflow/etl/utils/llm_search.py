@@ -13,7 +13,7 @@ def get_funding_snippets(company_name: str) -> str:
     with DDGS() as ddg:
         for r in ddg.text(query, region="us-en",
                         safesearch="off", max_results=20):
-            if company_name.lower().strip() in r["body"].lower():
+            if company_name.lower().strip() in r["body"].lower() and company_name.lower().strip() in r["title"].lower():
                 snippets.append("( website title: " + r["title"] + " | " + "snippet: " + r["body"] + " )")
 
     return "\n".join(snippets)
@@ -131,11 +131,11 @@ def one_sample(company_name: str) -> int:
         print("Sample failed:", e)
         return 0
 
-# Take a sample size of 3, and return the median
+# Take a sample size of 4, and return the median
 def get_funding(company_name: str) -> int:
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=4) as executor:
         results = list(executor.map(lambda _: one_sample(company_name), range(3)))
     
     results.sort()
     time.sleep(RETRY_DELAY)
-    return results[1]  # median
+    return (results[1] + results[2])//2  # median

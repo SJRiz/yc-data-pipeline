@@ -8,7 +8,7 @@ def load_to_postgres():
       eng, remote, job_website, description, stage,
       tags, industries, all_locations, team_size, batch, funding
     )
-    FROM STDIN WITH CSV HEADER;
+    FROM STDIN WITH CSV HEADER NULL '\\N';
     """
     file_path = './data/processed/yc_clean.csv'
 

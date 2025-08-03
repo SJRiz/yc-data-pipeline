@@ -41,7 +41,7 @@ def transform_yc_data():
         except:
             return None
         
-    df['funding'] = df['funding'].apply(clean_funding)
+    df['funding'] = df['funding'].apply(clean_funding).astype('Int64')  # because pandas is fucking stupid and keeps turning this into a float
 
     # Convert booleans into lowercase literal strings
     df['eng']    = df['eng'].astype(bool).map(lambda b: 'true' if b else 'false')
@@ -62,6 +62,6 @@ def transform_yc_data():
         columns=pg_cols,
         index=False,
         quotechar='"',
-        quoting=csv.QUOTE_ALL,
-        na_rep=''
+        quoting=csv.QUOTE_MINIMAL,
+        na_rep='\\N'
     )
