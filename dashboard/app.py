@@ -33,7 +33,7 @@ if not df.empty and "Company" in df.columns and "funding" in df.columns:
 
 # Use ollama model to get insights
 st.subheader("AI Summary Assistant")
-user_query = st.text_input("Ask something about these startups (e.g., 'Who raised the most funding?')")
+user_query = st.text_input("Ask something about these startups")
 
 if user_query and not df.empty:
     context_df = df[["Company", "CEO", "locations", "tags","industries", "team_size", "funding"]]
